@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="74" y="28" font-family="Arial" font-size="18" font-weight="700">mortgage lending spread: moving-block uncertainty fan</text>
+  <line x1="74" y1="48" x2="74" y2="392" stroke="#444"/>
+  <line x1="74" y1="392" x2="746" y2="392" stroke="#444"/>
+  <line x1="74" y1="293.5" x2="746" y2="293.5" stroke="#999" stroke-dasharray="5 5"/>
+  <polygon points="74.0,261.1 102.0,221.1 158.0,204.4 242.0,160.1 410.0,71.7 746.0,108.4 746.0,368.3 410.0,291.8 242.0,300.5 158.0,301.9 102.0,277.8 74.0,301.1" fill="#bdd7ee" opacity="0.45"/>
+  <polygon points="74.0,264.7 102.0,228.6 158.0,219.3 242.0,175.6 410.0,97.8 746.0,135.9 746.0,350.0 410.0,276.0 242.0,291.0 158.0,297.4 102.0,272.4 74.0,297.3" fill="#6fa8dc" opacity="0.42"/>
+  <polygon points="74.0,270.2 102.0,237.5 158.0,235.7 242.0,198.5 410.0,138.5 746.0,187.8 746.0,313.9 410.0,237.9 242.0,269.9 158.0,277.4 102.0,261.9 74.0,289.2" fill="#1f6feb" opacity="0.22"/>
+  <polyline points="74.0,279.7 102.0,249.6 158.0,259.1 242.0,235.6 410.0,189.6 746.0,247.9" fill="none" stroke="#174ea6" stroke-width="3"/>
+  <text x="74.0" y="420" text-anchor="middle" font-size="12">0</text>
+<text x="102.0" y="420" text-anchor="middle" font-size="12">1</text>
+<text x="158.0" y="420" text-anchor="middle" font-size="12">3</text>
+<text x="242.0" y="420" text-anchor="middle" font-size="12">6</text>
+<text x="410.0" y="420" text-anchor="middle" font-size="12">12</text>
+<text x="746.0" y="420" text-anchor="middle" font-size="12">24</text>
+  <text x="390.0" y="446" text-anchor="middle" font-family="Arial" font-size="13">Horizon in months</text>
+  <text x="18" y="230.0" transform="rotate(-90 18 230.0)" text-anchor="middle" font-family="Arial" font-size="13">Response, 1 SD shock</text>
+</svg>

@@ -1,0 +1,17 @@
+variable,quarterly_nobs,start,end,preferred_stationarity_classification,model_readiness_recommendation
+wx_shadow_rate,73,2004-09-30,2022-09-30,I(1),"primary monetary stance for 2004-09 to 2022-08; use as policy/shock variable, not cointegration level"
+dfr_eop,84,2005-03-31,2025-12-31,difference-stationary/ambiguous,do not include with shadow rate; use as robustness/full-sample conventional-rate alternative
+ecb_total_assets,27,1999-12-31,2025-12-31,I(1),exclude from core with current file; annual frequency is incompatible
+ecb_monetary_policy_securities,27,1999-12-31,2025-12-31,difference-stationary/ambiguous,exclude from core with current file; annual frequency is incompatible
+hh_loans_ea_stock,93,2003-03-31,2026-03-31,unclear,retain; central household/asset-channel credit stock
+nfc_loans_ea_stock,93,2003-03-31,2026-03-31,unclear,retain; central productive-credit stock
+credit_standards_enterprise,94,2003-03-31,2026-06-30,I(0),"use as exogenous/auxiliary mechanism variable, not VECM long-run level"
+credit_standards_household,94,2003-03-31,2026-06-30,I(0),"use as exogenous/auxiliary mechanism variable, not VECM long-run level"
+house_price_de_real,84,2005-03-31,2025-12-31,I(1),retain; central real housing asset-price proxy
+house_price_de,84,2005-03-31,2025-12-31,I(1),use only if model keeps an explicit price-level/HICP block
+compensation_ea20_real,105,1999-12-31,2025-12-31,I(1),retain cautiously; purchasing-power proxy but geography mismatch
+retail_de_mom_pct,84,2005-03-31,2025-12-31,I(0),exclude from VECM levels; stationary demand-growth robustness variable
+retail_de_chained_index,84,2005-03-31,2025-12-31,I(1),"exclude from core; constructed from growth, not official level"
+dax_real_de,84,2005-03-31,2025-12-31,I(1),include only in financial-asset robustness or expanded model; volatile and weak long-run anchor
+hicp_de,120,1996-03-31,2025-12-31,near-I(1)/ambiguous,use as deflator and possible inflation robustness variable; avoid duplicating real transformations
+hicp_ea20,105,1999-12-31,2025-12-31,unclear,use as compensation deflator; avoid simultaneous inclusion with real compensation unless testing price-level channel

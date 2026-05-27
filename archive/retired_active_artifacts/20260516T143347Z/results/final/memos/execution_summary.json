@@ -1,0 +1,69 @@
+{
+  "finished_at": "2026-05-16T14:24:25.537508+00:00",
+  "canonical_notebook": "notebooks/thesis_empirical_pipeline.ipynb",
+  "canonical_output_root": "results/final",
+  "archive_run": "archive/retired_active_artifacts/20260516T141846Z",
+  "baseline_cells": 30,
+  "weak_iv_status_counts": {
+    "directional_only": 30
+  },
+  "first_stage_flag_counts": {
+    "weak_iv_risk": 30
+  },
+  "first_stage_f_min": 0.015702461606945408,
+  "first_stage_f_max": 0.24337593841520527,
+  "top_ranked_channels": "NFC credit, Housing, HH credit",
+  "steps": [
+    {
+      "name": "Rebuild processed EU/DE data",
+      "returncode": 0,
+      "started_at": "2026-05-16T14:18:46.191515+00:00",
+      "finished_at": "2026-05-16T14:18:48.279896+00:00",
+      "command": [
+        "Rscript",
+        "src/data/build_final_dataset.R"
+      ]
+    },
+    {
+      "name": "Rebuild ECB external instrument pipeline",
+      "returncode": 0,
+      "started_at": "2026-05-16T14:18:48.279944+00:00",
+      "finished_at": "2026-05-16T14:18:53.010119+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python3",
+        "-m",
+        "src.data.ecb_monetary_surprises"
+      ]
+    },
+    {
+      "name": "Run canonical baseline LP-IV",
+      "returncode": 0,
+      "started_at": "2026-05-16T14:18:53.010181+00:00",
+      "finished_at": "2026-05-16T14:18:57.305265+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python3",
+        "scripts/run_canonical_baseline_lpiv.py"
+      ]
+    },
+    {
+      "name": "Run weak-IV robustification layer",
+      "returncode": 0,
+      "started_at": "2026-05-16T14:18:57.305300+00:00",
+      "finished_at": "2026-05-16T14:24:25.281293+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python3",
+        "scripts/run_weak_iv_robustification.py"
+      ]
+    },
+    {
+      "name": "Run final empirical audit",
+      "returncode": 0,
+      "started_at": "2026-05-16T14:24:25.349345+00:00",
+      "finished_at": "2026-05-16T14:24:25.536791+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python3",
+        "scripts/final_empirical_audit.py"
+      ]
+    }
+  ]
+}

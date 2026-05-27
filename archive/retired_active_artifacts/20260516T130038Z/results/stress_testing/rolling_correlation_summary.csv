@@ -1,0 +1,7 @@
+"pair","correlation"
+"ln_dax_real_de vs ln_hh_loans_ea_stock","min=0.227; mean=0.567; max=0.820"
+"ln_dax_real_de vs ln_house_price_de_real","min=0.026; mean=0.629; max=0.818"
+"ln_ecb_assets_ea_stock vs ln_hh_loans_ea_stock","min=0.836; mean=0.920; max=0.967"
+"ln_ecb_assets_ea_stock vs ln_nfc_loans_ea_stock","min=-0.570; mean=0.329; max=0.892"
+"ln_hh_loans_ea_stock vs ln_house_price_de_real","min=-0.591; mean=0.658; max=0.981"
+"ln_nfc_loans_ea_stock vs ln_house_price_de_real","min=-0.776; mean=-0.040; max=0.804"

@@ -1,0 +1,71 @@
+sample_name,response,response_label,channel,max_abs_cumulative,signed_cumulative_at_max,persistence_rank_within_subsample
+clean_events_only,ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0.37119280135486843,0.35419063827070596,3.0
+clean_events_only,ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0.08072960523600967,0.08072960523600967,5.0
+clean_events_only,ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0.030608296610375393,0.030608296610375393,7.0
+clean_events_only,ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0.364707289549499,0.364707289549499,4.0
+clean_events_only,eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,3.924975071108046,3.5790626326922435,1.0
+clean_events_only,eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,1.943224675970261,1.8722451500781967,2.0
+clean_events_only,ln_dax_real_de,real DAX,financial_market,0.022863072914733315,-0.022863072914733315,8.0
+clean_events_only,ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0.011725408721286693,-0.011725408721286693,9.0
+clean_events_only,ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0.049020963875583,-0.049020963875583,6.0
+clean_events_only,ln_nfc_loans_ea_stock,NFC credit,financial_credit,0.005121562444442972,-0.005121562444442972,10.0
+contaminated_events_only,ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0.31844490765312095,0.16032682562990627,4.0
+contaminated_events_only,ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0.1111810572024965,0.1111810572024965,5.0
+contaminated_events_only,ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0.06867242637044933,0.06867242637044933,6.0
+contaminated_events_only,ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0.3996502248039399,-0.3031260638950594,2.0
+contaminated_events_only,eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,0.6369490443314052,-0.6369490443314052,1.0
+contaminated_events_only,eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,0.325494806720737,0.24879103422932441,3.0
+contaminated_events_only,ln_dax_real_de,real DAX,financial_market,0.0684254674164144,-0.0684254674164144,7.0
+contaminated_events_only,ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0.03366223658844894,-0.03366223658844894,8.0
+contaminated_events_only,ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0.026974640984932373,0.02324854722108687,9.0
+contaminated_events_only,ln_nfc_loans_ea_stock,NFC credit,financial_credit,0.003284002072822528,0.0020697799558151973,10.0
+exclude_covid,ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0.49182762906351873,0.4467778668720672,3.0
+exclude_covid,ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0.17107432742905548,0.17107432742905548,4.0
+exclude_covid,ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0.07663996646509405,0.07663996646509405,5.0
+exclude_covid,ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0.024801332072927614,-0.024801332072927614,8.0
+exclude_covid,eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,0.6464100382040149,-0.6464100382040149,2.0
+exclude_covid,eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,0.9956525228590319,0.8406449705717669,1.0
+exclude_covid,ln_dax_real_de,real DAX,financial_market,0.07202953725059713,-0.07202953725059713,6.0
+exclude_covid,ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0.008487781326866072,-0.006736173580412667,9.0
+exclude_covid,ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0.028635820294296004,0.028635820294296004,7.0
+exclude_covid,ln_nfc_loans_ea_stock,NFC credit,financial_credit,0.002042632585052539,0.0004371906214076398,10.0
+exclude_crisis_windows,ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0.43022662298931064,0.43022662298931064,3.0
+exclude_crisis_windows,ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0.298380341145724,0.298380341145724,4.0
+exclude_crisis_windows,ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0.12544099068814196,0.12544099068814196,5.0
+exclude_crisis_windows,ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0.09492284458290173,-0.07711732091266191,6.0
+exclude_crisis_windows,eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,0.46661811574637524,0.46661811574637524,2.0
+exclude_crisis_windows,eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,0.7797885458839073,0.7797885458839073,1.0
+exclude_crisis_windows,ln_dax_real_de,real DAX,financial_market,0.04600600371313495,-0.04600600371313495,7.0
+exclude_crisis_windows,ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0.02455157954930535,0.02455157954930535,8.0
+exclude_crisis_windows,ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0.02254693052445949,0.012790131810266815,9.0
+exclude_crisis_windows,ln_nfc_loans_ea_stock,NFC credit,financial_credit,0.0041028622407174,-0.0041028622407174,10.0
+exclude_extreme_shock_outliers,ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0.33922033972166965,0.3127002996858277,3.0
+exclude_extreme_shock_outliers,ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0.13832835909714816,0.13832835909714816,5.0
+exclude_extreme_shock_outliers,ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0.0728317118748027,0.0728317118748027,8.0
+exclude_extreme_shock_outliers,ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0.2886440246230213,-0.1335776400607197,4.0
+exclude_extreme_shock_outliers,eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,2.9656154534445562,2.5342201955407275,1.0
+exclude_extreme_shock_outliers,eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,1.2008074293705377,0.8961853697146333,2.0
+exclude_extreme_shock_outliers,ln_dax_real_de,real DAX,financial_market,0.08287806712658545,-0.08287806712658545,7.0
+exclude_extreme_shock_outliers,ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0.019040920913412623,-0.008089753548263884,9.0
+exclude_extreme_shock_outliers,ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0.1280492538975701,0.09942950712582892,6.0
+exclude_extreme_shock_outliers,ln_nfc_loans_ea_stock,NFC credit,financial_credit,0.004696268577349189,0.004696268577349189,10.0
+exclude_qe_launch,ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0.5273291009808909,0.41579105630845425,3.0
+exclude_qe_launch,ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0.14264451156065508,0.14264451156065508,5.0
+exclude_qe_launch,ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0.0730864729167979,0.0730864729167979,6.0
+exclude_qe_launch,ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0.3136908841555634,-0.06803482380577544,4.0
+exclude_qe_launch,eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,2.8265754368691303,2.035570692656715,1.0
+exclude_qe_launch,eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,1.571036758397062,1.4417032354751687,2.0
+exclude_qe_launch,ln_dax_real_de,real DAX,financial_market,0.06605332390836112,-0.06605332390836112,7.0
+exclude_qe_launch,ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0.02965209440220163,-0.02965209440220163,8.0
+exclude_qe_launch,ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0.025300973539210327,-0.0055231028406597035,9.0
+exclude_qe_launch,ln_nfc_loans_ea_stock,NFC credit,financial_credit,0.0015087724315084481,-0.0015087724315084481,10.0
+full,ecb_house_purchase_growth_yoy,house-purchase lending growth,housing_finance,0.4831688822626374,0.3569638354441788,3.0
+full,ecb_mir_mortgage_lending_spread_dfr,mortgage lending spread,banking_lending_conditions,0.14007707210426268,0.14007707210426268,5.0
+full,ecb_mir_nfc_lending_spread_dfr,NFC lending spread,banking_lending_conditions,0.07072030870698401,0.07072030870698401,6.0
+full,ecb_wage_tracker_ex_oneoffs_real_yoy,real wage tracker excl. one-offs,compensation_proxy,0.30187110035998205,-0.04142012307708076,4.0
+full,eurostat_ecfin_eei_ea20,employment expectations,labor_tightness,2.761774887687584,1.9620593669901727,1.0
+full,eurostat_sts_industry_wage_bill_de_real_yoy,German industry real wage bill growth,compensation_proxy,1.5928732788056312,1.4875713011176925,2.0
+full,ln_dax_real_de,real DAX,financial_market,0.06677908512767797,-0.06677908512767797,7.0
+full,ln_ecb_assets_ea_stock,ECB assets,financial_liquidity,0.03226542614839496,-0.03226542614839496,8.0
+full,ln_ecb_house_purchase_pure_new_loans,pure new house-purchase loans,housing_finance,0.025300973539210327,-0.0055231028406597035,9.0
+full,ln_nfc_loans_ea_stock,NFC credit,financial_credit,0.0018728056274944047,-0.0018728056274944047,10.0

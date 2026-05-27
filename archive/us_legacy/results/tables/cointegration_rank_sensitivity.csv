@@ -1,0 +1,10 @@
+k_ar_diff,det_order,deterministic_label,trace_rank_5pct,maxeig_rank_5pct,error
+1,-1,none,1,1,
+1,0,constant_in_cointegration_relation,1,2,
+1,1,linear_trend,3,3,
+2,-1,none,1,1,
+2,0,constant_in_cointegration_relation,2,2,
+2,1,linear_trend,3,3,
+3,-1,none,2,2,
+3,0,constant_in_cointegration_relation,2,2,
+3,1,linear_trend,3,3,

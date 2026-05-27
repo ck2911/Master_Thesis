@@ -1,0 +1,7 @@
+variable,source,transformation,economic_role,thesis_status
+shadow_rate,"Krippner U.S. shadow short rate, local workbook",Monthly level in percentage points,Monetary policy stance / financial conditions,"Legacy only: U.S./Fed proxy, not Germany/ECB"
+ln_credit,"FRED TOTBKCR, all U.S. commercial bank credit","Monthly mean, log level",Financial intermediation,Legacy only: U.S. banking aggregate
+ln_real_equity,FRED NASDAQ100 and CPIAUCSL,"Month-end equity index deflated by CPI, log level","Asset prices, equity channel",Legacy only: U.S. equity proxy
+ln_real_housing,FRED CSUSHPINSA and CPIAUCSL,"Monthly house price index deflated by CPI, log level","Asset prices, housing channel",Legacy only: U.S. housing proxy
+ln_real_income,FRED DSPIC96,"Real disposable personal income, log level",Real economy / income channel,Legacy only: U.S. real income proxy
+ln_cpi,FRED CPIAUCSL,"CPI, log level",Inflation / price-level dynamics,Legacy only: U.S. inflation proxy

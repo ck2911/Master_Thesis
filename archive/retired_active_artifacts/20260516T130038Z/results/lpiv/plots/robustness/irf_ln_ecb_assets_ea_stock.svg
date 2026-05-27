@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#ffffff" />
+  <text x="70" y="24" font-size="16" font-family="Arial, sans-serif" fill="#0f172a">LP-IV IRF: ln_ecb_assets_ea_stock</text>
+  <line x1="70" y1="430" x2="740" y2="430" stroke="#334155" />
+  <line x1="70" y1="35" x2="70" y2="430" stroke="#334155" />
+  <line x1="70" y1="391.95" x2="740" y2="391.95" stroke="#64748b" stroke-dasharray="4 4" />
+  <polygon points="70.00,263.80 111.88,224.92 153.75,126.47 237.50,73.23 405.00,93.51 572.50,131.76 740.00,147.49 740.00,391.77 572.50,376.00 405.00,356.94 237.50,320.01 153.75,315.64 111.88,351.72 70.00,349.93" fill="#94a3b8" opacity="0.28" />
+  <polyline points="70.00,306.86 111.88,288.32 153.75,221.06 237.50,196.62 405.00,225.22 572.50,253.88 740.00,269.63" fill="none" stroke="#0f766e" stroke-width="3" />
+  <line x1="70.00" y1="430" x2="70.00" y2="436" stroke="#334155" /><text x="70.00" y="455" text-anchor="middle" font-size="12" fill="#334155">0</text><line x1="111.88" y1="430" x2="111.88" y2="436" stroke="#334155" /><text x="111.88" y="455" text-anchor="middle" font-size="12" fill="#334155">1</text><line x1="153.75" y1="430" x2="153.75" y2="436" stroke="#334155" /><text x="153.75" y="455" text-anchor="middle" font-size="12" fill="#334155">2</text><line x1="237.50" y1="430" x2="237.50" y2="436" stroke="#334155" /><text x="237.50" y="455" text-anchor="middle" font-size="12" fill="#334155">4</text><line x1="405.00" y1="430" x2="405.00" y2="436" stroke="#334155" /><text x="405.00" y="455" text-anchor="middle" font-size="12" fill="#334155">8</text><line x1="572.50" y1="430" x2="572.50" y2="436" stroke="#334155" /><text x="572.50" y="455" text-anchor="middle" font-size="12" fill="#334155">12</text><line x1="740.00" y1="430" x2="740.00" y2="436" stroke="#334155" /><text x="740.00" y="455" text-anchor="middle" font-size="12" fill="#334155">16</text>
+  <text x="405" y="485" text-anchor="middle" font-size="12" font-family="Arial, sans-serif" fill="#334155">Horizon</text>
+  <text x="16" y="240" text-anchor="middle" transform="rotate(-90 16 240)" font-size="12" font-family="Arial, sans-serif" fill="#334155">Response</text>
+</svg>

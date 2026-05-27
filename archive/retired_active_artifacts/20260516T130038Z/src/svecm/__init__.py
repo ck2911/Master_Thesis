@@ -1,0 +1,1 @@
+"""Archived SVECM specification code."""

@@ -1,0 +1,12 @@
+variable,transform,nobs,za_stat,za_pvalue,break_date,usedlag,crit_5pct,error
+wx_shadow_rate,level,73,-2.6742736555830353,0.990764266000172,2020-03-31,1.0,-5.07332,
+dfr_eop,level,84,-4.728264347356767,0.12787532591445638,2019-06-30,3.0,-5.07332,
+hh_loans_ea_stock,log,93,,,,,,"ZA: auxiliary exog matrix is not full rank.
+  cols (exc intercept) = 16  rank = 15.0"
+nfc_loans_ea_stock,log,93,-3.3511041608338026,0.8749451359286792,2020-06-30,3.0,-5.07332,
+house_price_de_real,log,84,-2.8726111085702346,0.9784014168819948,2019-09-30,7.0,-5.07332,
+compensation_ea20_real,log,105,-4.749069157350552,0.12166206393029155,2015-09-30,4.0,-5.07332,
+dax_real_de,log,84,-3.935818870044898,0.5473749862215437,2012-06-30,0.0,-5.07332,
+retail_de_chained_index,log,84,-3.344124436585833,0.8776014474859822,2008-12-31,7.0,-5.07332,
+hicp_de,log,120,-4.982175904802119,0.06590203349812983,2018-09-30,6.0,-5.07332,
+ecb_total_assets,log,27,,,,,,too few

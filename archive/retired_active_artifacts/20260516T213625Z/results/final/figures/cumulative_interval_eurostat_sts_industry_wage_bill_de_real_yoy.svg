@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="72" y="26" font-family="Arial" font-size="18" font-weight="700">German industry real wage bill growth: cumulative moving-block interval</text>
+  <line x1="72" y1="44" x2="72" y2="366" stroke="#444"/>
+  <line x1="72" y1="366" x2="726" y2="366" stroke="#444"/>
+  <line x1="72" y1="337.9" x2="726" y2="337.9" stroke="#999" stroke-dasharray="5 5"/>
+  <polygon points="72.0,287.0 99.2,226.7 153.8,169.0 235.5,104.7 399.0,66.2 726.0,69.5 726.0,279.3 399.0,259.2 235.5,269.5 153.8,300.6 99.2,318.5 72.0,343.8" fill="#8ec5ff" opacity="0.38"/>
+  <polyline points="72.0,315.4 99.2,272.6 153.8,234.8 235.5,187.1 399.0,162.7 726.0,174.4" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="72.0" y="392" text-anchor="middle" font-size="12">0</text>
+<text x="99.2" y="392" text-anchor="middle" font-size="12">1</text>
+<text x="153.8" y="392" text-anchor="middle" font-size="12">3</text>
+<text x="235.5" y="392" text-anchor="middle" font-size="12">6</text>
+<text x="399.0" y="392" text-anchor="middle" font-size="12">12</text>
+<text x="726.0" y="392" text-anchor="middle" font-size="12">24</text>
+  <text x="380.0" y="418" text-anchor="middle" font-family="Arial" font-size="13">Horizon in months</text>
+</svg>

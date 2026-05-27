@@ -1,0 +1,16 @@
+system,sample,nobs,sample_start,sample_end,det_order,k_ar_diff,trace_rank_5pct,normalization,error,beta_ln_hh_loans_ea_stock,beta_ln_nfc_loans_ea_stock,beta_ln_house_price_de_real,beta_ln_compensation_ea20_real,beta_ln_dax_real_de,beta_ln_house_price_de,beta_ln_compensation_ea20_nominal,beta_ln_hicp_de
+core_real_credit_house_income,full,84,2005-03-31,2025-12-31,0.0,1.0,1.0,ln_hh_loans_ea_stock,,1.0,-0.164548345618746,-0.1645379700698534,-3.5858005004777564,,,,
+core_real_credit_house_income,full,84,2005-03-31,2025-12-31,0.0,2.0,1.0,ln_hh_loans_ea_stock,,1.0,-0.09660274628917925,-0.006166148397652807,-4.790594668264378,,,,
+core_real_credit_house_income,pre_covid,60,2005-03-31,2019-12-31,0.0,1.0,2.0,ln_hh_loans_ea_stock,,1.0,-0.04639293354257369,-0.12658406834991354,-3.07423649865346,,,,
+core_real_credit_house_income,pre_covid,60,2005-03-31,2019-12-31,0.0,2.0,2.0,ln_hh_loans_ea_stock,,1.0,1.006300239157282,0.7736190471186118,-11.891863029103385,,,,
+core_real_credit_house_income,post_2014_to_pre_tightening,34,,,,,,,too few observations for stable vector inspection,,,,,,,,
+core_plus_real_dax,full,84,2005-03-31,2025-12-31,0.0,1.0,1.0,ln_hh_loans_ea_stock,,1.0,-0.26782932997707987,-0.1607530073676981,-2.5358866822829222,-0.062151363759273714,,,
+core_plus_real_dax,full,84,2005-03-31,2025-12-31,0.0,2.0,1.0,ln_hh_loans_ea_stock,,1.0,-0.3044988600700041,-0.0875344180540763,-2.8004950463178098,-0.07210502658617152,,,
+core_plus_real_dax,pre_covid,60,2005-03-31,2019-12-31,0.0,1.0,2.0,ln_hh_loans_ea_stock,,1.0,-0.13713899759449968,-0.15174699564519412,-2.50780001229524,-0.02642830416788109,,,
+core_plus_real_dax,pre_covid,60,2005-03-31,2019-12-31,0.0,2.0,2.0,ln_hh_loans_ea_stock,,1.0,0.5093458057273589,0.4519821943875366,-7.90347173857828,-0.11977513802122863,,,
+core_plus_real_dax,post_2014_to_pre_tightening,34,,,,,,,too few observations for stable vector inspection,,,,,,,,
+nominal_credit_house_income_prices,full,84,2005-03-31,2025-12-31,0.0,1.0,1.0,ln_hh_loans_ea_stock,,1.0,-0.24889501127072303,,,,-0.15618136902541824,-1.8061870216676204,1.5205757831717586
+nominal_credit_house_income_prices,full,84,2005-03-31,2025-12-31,0.0,2.0,1.0,ln_hh_loans_ea_stock,,1.0,-0.24898739801411748,,,,-0.1588683960976103,-2.2861160327538443,2.02314504740056
+nominal_credit_house_income_prices,pre_covid,60,2005-03-31,2019-12-31,0.0,1.0,5.0,ln_hh_loans_ea_stock,,1.0,-14.264732803812919,,,,22.997011933003034,67.28541651275492,-158.7902355487418
+nominal_credit_house_income_prices,pre_covid,60,2005-03-31,2019-12-31,0.0,2.0,2.0,ln_hh_loans_ea_stock,,1.0,-1.7748088373360786,,,,0.04313696941034312,6.867075783055352,-9.403801346523595
+nominal_credit_house_income_prices,post_2014_to_pre_tightening,34,,,,,,,too few observations for stable vector inspection,,,,,,,,

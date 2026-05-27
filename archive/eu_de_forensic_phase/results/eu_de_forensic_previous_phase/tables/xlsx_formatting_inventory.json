@@ -1,0 +1,180 @@
+{
+  "10 volume of sales in wholesale and retail trade .xlsx": {
+    "Summary": {
+      "max_row": 16,
+      "max_column": 15,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 1,
+      "merged_ranges": [
+        "B8:O8"
+      ],
+      "freeze_panes": "None"
+    },
+    "Sheet 1": {
+      "max_row": 28,
+      "max_column": 506,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 253,
+      "merged_ranges": [
+        "RY10:RZ10",
+        "FY10:FZ10",
+        "HU10:HV10",
+        "JW10:JX10",
+        "HM10:HN10",
+        "HO10:HP10",
+        "HY10:HZ10",
+        "IA10:IB10",
+        "KA10:KB10",
+        "M10:N10",
+        "IU10:IV10",
+        "KC10:KD10",
+        "KE10:KF10",
+        "KW10:KX10",
+        "ME10:MF10",
+        "Y10:Z10",
+        "KO10:KP10",
+        "BG10:BH10",
+        "BI10:BJ10",
+        "KQ10:KR10",
+        "MG10:MH10",
+        "DI10:DJ10",
+        "MQ10:MR10",
+        "DK10:DL10",
+        "MS10:MT10",
+        "OS10:OT10",
+        "IY10:IZ10",
+        "OU10:OV10",
+        "S10:T10",
+        "JA10:JB10",
+        "QU10:QV10",
+        "AC10:AD10",
+        "JK10:JL10",
+        "AE10:AF10",
+        "RG10:RH10",
+        "CE10:CF10",
+        "LM10:LN10",
+        "AO10:AP10",
+        "AY10:AZ10",
+        "CG10:CH10",
+        "AQ10:AR10",
+        "LO10:LP10",
+        "MW10:MX10",
+        "CQ10:CR10",
+        "NO10:NP10",
+        "NQ10:NR10",
+        "CS10:CT10",
+        "EA10:EB10",
+        "CU10:CV10",
+        "PI10:PJ10",
+        "PS10:PT10",
+        "EU10:EV10",
+        "OC10:OD10",
+        "PK10:PL10",
+        "EW10:EX10",
+        "OE10:OF10",
+        "PU10:PV10",
+        "GW10:GX10",
+        "QE10:QF10",
+        "RM10:RN10"
+      ],
+      "freeze_panes": "C12"
+    }
+  },
+  "3. ECB Deposit Facility Rate.xlsx": {
+    "README": {
+      "max_row": 8,
+      "max_column": 3,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    },
+    "Daily, 7-Day": {
+      "max_row": 7671,
+      "max_column": 2,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    }
+  },
+  "4. loans to euro area households granted by MFIs .xlsx": {
+    "DATA": {
+      "max_row": 294,
+      "max_column": 3,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    }
+  },
+  "5. Adjusted loans to euro area NFCs granted by MFIs.xlsx": {
+    "DATA": {
+      "max_row": 294,
+      "max_column": 3,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    }
+  },
+  "6. Credit standards-Overall-Enterprise, Euro area, Quarterly.xlsx": {
+    "DATA": {
+      "max_row": 109,
+      "max_column": 3,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    }
+  },
+  "6.1 Credit standards-Household, Euro area, Quarterly.xlsx": {
+    "DATA": {
+      "max_row": 109,
+      "max_column": 3,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    }
+  },
+  "7. Residential prices.xlsx": {
+    "README": {
+      "max_row": 8,
+      "max_column": 3,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    },
+    "Quarterly": {
+      "max_row": 85,
+      "max_column": 2,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    }
+  },
+  "9. Compensation per employee.xlsx": {
+    "DATA": {
+      "max_row": 139,
+      "max_column": 3,
+      "hidden_rows": [],
+      "hidden_cols": [],
+      "merged_count": 0,
+      "merged_ranges": [],
+      "freeze_panes": "None"
+    }
+  }
+}

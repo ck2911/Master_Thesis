@@ -1,0 +1,6 @@
+variable,peak_beta,peak_horizon,persistence_duration_quarters_reported_grid,same_sign_reported_horizons,half_life_quarters_after_peak,return_to_zero_horizon,cumulative_response_h12,min_F_stat,weak_iv_flag
+ln_compensation_ea20_real,-8.914583196576224e-08,12,12,"0,4,8,12",,,-1.7467911230635645e-07,0.015702461606945408,weak_iv_risk
+ln_ecb_assets_ea_stock,5.309712163357497e-07,4,8,"0,1,2,4,8",8.0,8.0,1.887104180793453e-06,0.015702461606945408,weak_iv_risk
+ln_hh_loans_ea_stock,-1.1372289300166339e-07,12,11,"1,2,4,8,12",,,-1.748053705997621e-07,0.015702461606945408,weak_iv_risk
+ln_house_price_de_real,6.871932936282943e-08,12,12,"0,1,2,4,8,12",,,2.6018192040697564e-07,0.015702461606945408,weak_iv_risk
+ln_nfc_loans_ea_stock,-2.41018940369883e-07,12,11,"1,2,4,8,12",,,-4.4141404154131877e-07,0.015702461606945408,weak_iv_risk

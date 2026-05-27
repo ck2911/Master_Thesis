@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="74" y="28" font-family="Arial" font-size="18" font-weight="700">pure new house-purchase loans: moving-block uncertainty fan</text>
+  <line x1="74" y1="48" x2="74" y2="392" stroke="#444"/>
+  <line x1="74" y1="392" x2="746" y2="392" stroke="#444"/>
+  <line x1="74" y1="203.9" x2="746" y2="203.9" stroke="#999" stroke-dasharray="5 5"/>
+  <polygon points="74.0,160.1 102.0,105.7 158.0,124.7 242.0,71.7 410.0,111.8 746.0,196.8 746.0,368.3 410.0,299.4 242.0,239.1 158.0,289.4 102.0,225.6 74.0,302.9" fill="#bdd7ee" opacity="0.45"/>
+  <polygon points="74.0,171.2 102.0,116.6 158.0,139.4 242.0,82.9 410.0,128.9 746.0,207.0 746.0,360.3 410.0,283.5 242.0,222.8 158.0,278.1 102.0,214.4 74.0,294.2" fill="#6fa8dc" opacity="0.42"/>
+  <polygon points="74.0,191.8 102.0,137.9 158.0,169.2 242.0,112.5 410.0,157.8 746.0,246.3 746.0,328.4 410.0,260.1 242.0,199.5 158.0,248.2 102.0,201.3 74.0,268.6" fill="#1f6feb" opacity="0.22"/>
+  <polyline points="74.0,230.7 102.0,167.0 158.0,204.0 242.0,154.1 410.0,210.9 746.0,291.3" fill="none" stroke="#174ea6" stroke-width="3"/>
+  <text x="74.0" y="420" text-anchor="middle" font-size="12">0</text>
+<text x="102.0" y="420" text-anchor="middle" font-size="12">1</text>
+<text x="158.0" y="420" text-anchor="middle" font-size="12">3</text>
+<text x="242.0" y="420" text-anchor="middle" font-size="12">6</text>
+<text x="410.0" y="420" text-anchor="middle" font-size="12">12</text>
+<text x="746.0" y="420" text-anchor="middle" font-size="12">24</text>
+  <text x="390.0" y="446" text-anchor="middle" font-family="Arial" font-size="13">Horizon in months</text>
+  <text x="18" y="230.0" transform="rotate(-90 18 230.0)" text-anchor="middle" font-family="Arial" font-size="13">Response, 1 SD shock</text>
+</svg>

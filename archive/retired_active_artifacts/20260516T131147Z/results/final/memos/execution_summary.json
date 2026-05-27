@@ -1,0 +1,59 @@
+{
+  "finished_at": "2026-05-16T13:06:18.923772+00:00",
+  "canonical_notebook": "notebooks/thesis_empirical_pipeline.ipynb",
+  "canonical_output_root": "results/final",
+  "archive_run": "archive/retired_active_artifacts/20260516T130038Z",
+  "baseline_cells": 30,
+  "weak_iv_status_counts": {
+    "directional_only": 30
+  },
+  "first_stage_flag_counts": {
+    "weak_iv_risk": 30
+  },
+  "first_stage_f_min": 0.015702461606945408,
+  "first_stage_f_max": 0.24337593841520527,
+  "top_ranked_channels": "NFC credit, Housing, HH credit",
+  "steps": [
+    {
+      "name": "Rebuild processed EU/DE data",
+      "returncode": 0,
+      "started_at": "2026-05-16T13:00:38.232102+00:00",
+      "finished_at": "2026-05-16T13:00:40.898346+00:00",
+      "command": [
+        "Rscript",
+        "src/data/build_final_dataset.R"
+      ]
+    },
+    {
+      "name": "Rebuild ECB external instrument pipeline",
+      "returncode": 0,
+      "started_at": "2026-05-16T13:00:40.898384+00:00",
+      "finished_at": "2026-05-16T13:00:58.484549+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python3",
+        "-m",
+        "src.data.ecb_monetary_surprises"
+      ]
+    },
+    {
+      "name": "Run canonical baseline LP-IV",
+      "returncode": 0,
+      "started_at": "2026-05-16T13:00:58.484590+00:00",
+      "finished_at": "2026-05-16T13:01:03.785262+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python3",
+        "scripts/run_canonical_baseline_lpiv.py"
+      ]
+    },
+    {
+      "name": "Run weak-IV robustification layer",
+      "returncode": 0,
+      "started_at": "2026-05-16T13:01:03.785297+00:00",
+      "finished_at": "2026-05-16T13:06:18.886776+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python3",
+        "scripts/run_weak_iv_robustification.py"
+      ]
+    }
+  ]
+}

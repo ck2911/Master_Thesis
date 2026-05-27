@@ -1,0 +1,31 @@
+"system","sample","rank_used","normalized_on","variable","beta_first_vector"
+"System A: ECB assets inside beta","baseline",2,"ln_ecb_assets_ea_stock","ln_ecb_assets_ea_stock",1
+"System A: ECB assets inside beta","baseline",2,"ln_ecb_assets_ea_stock","ln_hh_loans_ea_stock",182.925685860116
+"System A: ECB assets inside beta","baseline",2,"ln_ecb_assets_ea_stock","ln_nfc_loans_ea_stock",-30.6334155568449
+"System A: ECB assets inside beta","baseline",2,"ln_ecb_assets_ea_stock","ln_house_price_de_real",-70.7702967325934
+"System A: ECB assets inside beta","baseline",2,"ln_ecb_assets_ea_stock","ln_compensation_ea20_real",-421.493399786999
+"System A: ECB assets inside beta","robustness",1,"ln_ecb_assets_ea_stock","ln_ecb_assets_ea_stock",1
+"System A: ECB assets inside beta","robustness",1,"ln_ecb_assets_ea_stock","ln_hh_loans_ea_stock",65.6359291048011
+"System A: ECB assets inside beta","robustness",1,"ln_ecb_assets_ea_stock","ln_nfc_loans_ea_stock",-13.9036337610352
+"System A: ECB assets inside beta","robustness",1,"ln_ecb_assets_ea_stock","ln_house_price_de_real",-15.0209534738307
+"System A: ECB assets inside beta","robustness",1,"ln_ecb_assets_ea_stock","ln_compensation_ea20_real",-223.895366019274
+"System B/D: ECB assets excluded beta block","baseline",2,"ln_hh_loans_ea_stock","ln_hh_loans_ea_stock",1
+"System B/D: ECB assets excluded beta block","baseline",2,"ln_hh_loans_ea_stock","ln_nfc_loans_ea_stock",-0.123945936196466
+"System B/D: ECB assets excluded beta block","baseline",2,"ln_hh_loans_ea_stock","ln_house_price_de_real",-0.392652393664675
+"System B/D: ECB assets excluded beta block","baseline",2,"ln_hh_loans_ea_stock","ln_compensation_ea20_real",-2.31075436654938
+"System B/D: ECB assets excluded beta block","robustness",1,"ln_hh_loans_ea_stock","ln_hh_loans_ea_stock",1
+"System B/D: ECB assets excluded beta block","robustness",1,"ln_hh_loans_ea_stock","ln_nfc_loans_ea_stock",-0.165630171202323
+"System B/D: ECB assets excluded beta block","robustness",1,"ln_hh_loans_ea_stock","ln_house_price_de_real",-0.171503121288404
+"System B/D: ECB assets excluded beta block","robustness",1,"ln_hh_loans_ea_stock","ln_compensation_ea20_real",-3.51926197778829
+"Expanded: ECB assets plus DAX","baseline",1,"ln_ecb_assets_ea_stock","ln_ecb_assets_ea_stock",1
+"Expanded: ECB assets plus DAX","baseline",1,"ln_ecb_assets_ea_stock","ln_hh_loans_ea_stock",-831.560503520825
+"Expanded: ECB assets plus DAX","baseline",1,"ln_ecb_assets_ea_stock","ln_nfc_loans_ea_stock",136.05125131091
+"Expanded: ECB assets plus DAX","baseline",1,"ln_ecb_assets_ea_stock","ln_house_price_de_real",290.519367731668
+"Expanded: ECB assets plus DAX","baseline",1,"ln_ecb_assets_ea_stock","ln_compensation_ea20_real",1919.60618228913
+"Expanded: ECB assets plus DAX","baseline",1,"ln_ecb_assets_ea_stock","ln_dax_real_de",4.24040232613666
+"Expanded: ECB assets plus DAX","robustness",1,"ln_ecb_assets_ea_stock","ln_ecb_assets_ea_stock",1
+"Expanded: ECB assets plus DAX","robustness",1,"ln_ecb_assets_ea_stock","ln_hh_loans_ea_stock",-237.87317077985
+"Expanded: ECB assets plus DAX","robustness",1,"ln_ecb_assets_ea_stock","ln_nfc_loans_ea_stock",59.6380259765719
+"Expanded: ECB assets plus DAX","robustness",1,"ln_ecb_assets_ea_stock","ln_house_price_de_real",38.4271236797422
+"Expanded: ECB assets plus DAX","robustness",1,"ln_ecb_assets_ea_stock","ln_compensation_ea20_real",652.523601076424
+"Expanded: ECB assets plus DAX","robustness",1,"ln_ecb_assets_ea_stock","ln_dax_real_de",8.78223014444798

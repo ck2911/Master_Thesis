@@ -1,0 +1,16 @@
+target,target_variable,channel,target_lead_quarters,four_quarter_growth_correlation
+real_house_prices,ln_house_price_de_real,asset_housing,0,0.25687168713517045
+real_house_prices,ln_house_price_de_real,asset_housing,1,0.2646495645606047
+real_house_prices,ln_house_price_de_real,asset_housing,2,0.21474909902220973
+real_house_prices,ln_house_price_de_real,asset_housing,3,0.13655841282977554
+real_house_prices,ln_house_price_de_real,asset_housing,4,0.059614780777510645
+real_dax,ln_dax_real_de,asset_equity,0,-0.28621876071766694
+real_dax,ln_dax_real_de,asset_equity,1,-0.19064609295029986
+real_dax,ln_dax_real_de,asset_equity,2,-0.0719748781406937
+real_dax,ln_dax_real_de,asset_equity,3,0.0011042013759072422
+real_dax,ln_dax_real_de,asset_equity,4,-0.007101676484052911
+real_compensation,ln_compensation_ea20_real,real_purchasing_power,0,-0.08341633328375922
+real_compensation,ln_compensation_ea20_real,real_purchasing_power,1,0.016782496693680038
+real_compensation,ln_compensation_ea20_real,real_purchasing_power,2,0.01559947149413459
+real_compensation,ln_compensation_ea20_real,real_purchasing_power,3,-0.027571458375850066
+real_compensation,ln_compensation_ea20_real,real_purchasing_power,4,-0.07749957912269745

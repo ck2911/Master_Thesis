@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="460" viewBox="0 0 780 460">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="74" y="28" font-family="Arial" font-size="18" font-weight="700">ECB assets: moving-block uncertainty fan</text>
+  <line x1="74" y1="48" x2="74" y2="392" stroke="#444"/>
+  <line x1="74" y1="392" x2="746" y2="392" stroke="#444"/>
+  <line x1="74" y1="170.8" x2="746" y2="170.8" stroke="#999" stroke-dasharray="5 5"/>
+  <polygon points="74.0,163.2 102.0,139.9 158.0,136.8 242.0,115.4 410.0,114.8 746.0,71.7 746.0,368.3 410.0,329.4 242.0,261.7 158.0,238.2 102.0,217.5 74.0,222.1" fill="#bdd7ee" opacity="0.45"/>
+  <polygon points="74.0,170.1 102.0,146.0 158.0,142.0 242.0,121.7 410.0,125.7 746.0,100.1 746.0,350.3 410.0,311.4 242.0,244.9 158.0,229.2 102.0,210.5 74.0,213.1" fill="#6fa8dc" opacity="0.42"/>
+  <polygon points="74.0,177.8 102.0,162.2 158.0,158.9 242.0,152.7 410.0,166.8 746.0,152.1 746.0,301.8 410.0,280.9 242.0,219.3 158.0,212.3 102.0,198.0 74.0,202.6" fill="#1f6feb" opacity="0.22"/>
+  <polyline points="74.0,190.8 102.0,180.4 158.0,184.8 242.0,187.3 410.0,225.7 746.0,229.0" fill="none" stroke="#174ea6" stroke-width="3"/>
+  <text x="74.0" y="420" text-anchor="middle" font-size="12">0</text>
+<text x="102.0" y="420" text-anchor="middle" font-size="12">1</text>
+<text x="158.0" y="420" text-anchor="middle" font-size="12">3</text>
+<text x="242.0" y="420" text-anchor="middle" font-size="12">6</text>
+<text x="410.0" y="420" text-anchor="middle" font-size="12">12</text>
+<text x="746.0" y="420" text-anchor="middle" font-size="12">24</text>
+  <text x="390.0" y="446" text-anchor="middle" font-family="Arial" font-size="13">Horizon in months</text>
+  <text x="18" y="230.0" transform="rotate(-90 18 230.0)" text-anchor="middle" font-family="Arial" font-size="13">Response, 1 SD shock</text>
+</svg>

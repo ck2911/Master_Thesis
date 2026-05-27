@@ -1,0 +1,5 @@
+policy_variable,instrument,nobs,sample_start,sample_end,first_stage_f_stat,partial_r_squared,r_squared,hac_bandwidth,instrument_coefficient,instrument_std_error,instrument_t_stat,instrument_p_value,regime,status
+d_ecb_assets_ea_qavg,target_factor_market_magnitude_weighted_quarterly_sum,34,2005Q4,2014Q1,0.6182834043461407,0.033208400093523785,0.57622897308738,1.0,-1286.9858732977525,1249.568919273978,-1.0299438898060256,0.3030363460074605,pre_qe,estimated
+d_ecb_assets_ea_qavg,target_factor_market_magnitude_weighted_quarterly_sum,23,2014Q2,2019Q4,3.428964306335138,0.328792409832316,0.9432417164374163,1.0,4636.112920623171,2050.369342245946,2.2611111203725067,0.023752376939028305,qe,estimated
+,,8,,,,,,,,,,,covid,insufficient_regime_observations_for_14_controls
+,,2,,,,,,,,,,,tightening,insufficient_regime_observations_for_14_controls

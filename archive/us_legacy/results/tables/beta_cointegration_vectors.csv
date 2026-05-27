@@ -1,0 +1,13 @@
+variable,cointegration_relation,beta
+shadow_rate,ec1,0.9999999999999999
+shadow_rate,ec2,-2.3546875092834346e-19
+ln_credit,ec1,5.664250930589165e-16
+ln_credit,ec2,1.0
+ln_real_equity,ec1,-16.10559172972271
+ln_real_equity,ec2,0.029153874682733772
+ln_real_housing,ec1,-21.560460153114946
+ln_real_housing,ec2,0.030060783971666033
+ln_real_income,ec1,74.26421527373431
+ln_real_income,ec2,-2.6627281535075085
+ln_cpi,ec1,14.592983454302182
+ln_cpi,ec2,0.3271782659079415

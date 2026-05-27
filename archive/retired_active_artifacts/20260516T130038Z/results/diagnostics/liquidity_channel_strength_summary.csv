@@ -1,0 +1,6 @@
+target,target_variable,channel,liquidity_growth,target_growth,target_lead_quarters,correlation,abs_correlation
+hh_loans,ln_hh_loans_ea_stock,credit,quarterly_log_diff,quarterly_log_diff,2,0.22049411506815236,0.22049411506815236
+nfc_loans,ln_nfc_loans_ea_stock,credit,quarterly_log_diff,quarterly_log_diff,0,0.2321583747831458,0.2321583747831458
+real_compensation,ln_compensation_ea20_real,income,quarterly_log_diff,quarterly_log_diff,1,0.2411266564593957,0.2411266564593957
+real_dax,ln_dax_real_de,asset,quarterly_log_diff,four_quarter_log_diff,1,-0.23167791056575973,0.23167791056575973
+real_house_prices,ln_house_price_de_real,asset,quarterly_log_diff,four_quarter_log_diff,1,0.17181922762468235,0.17181922762468235

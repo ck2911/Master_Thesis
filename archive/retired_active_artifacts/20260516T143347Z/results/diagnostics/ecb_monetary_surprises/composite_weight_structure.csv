@@ -1,0 +1,10 @@
+composite,factor,weight
+composite_equal_weight_timing_fg_qe,timing,0.3333333333333333
+composite_equal_weight_timing_fg_qe,fg,0.3333333333333333
+composite_equal_weight_timing_fg_qe,qe,0.3333333333333333
+composite_inverse_variance_timing_fg_qe,timing,0.5379532500775337
+composite_inverse_variance_timing_fg_qe,fg,0.14461407195894685
+composite_inverse_variance_timing_fg_qe,qe,0.31743267796351937
+composite_qe_heavy_timing_fg_qe,timing,0.2
+composite_qe_heavy_timing_fg_qe,fg,0.2
+composite_qe_heavy_timing_fg_qe,qe,0.6

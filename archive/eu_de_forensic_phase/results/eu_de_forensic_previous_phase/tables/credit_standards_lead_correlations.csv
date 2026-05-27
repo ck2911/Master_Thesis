@@ -1,0 +1,16 @@
+standard,target_yoy_growth,standards_lead_quarters,corr
+credit_standards_household,house_price_de_real,0,-0.2960962930781113
+credit_standards_household,house_price_de_real,1,-0.33741175226257875
+credit_standards_household,house_price_de_real,2,-0.337736085025689
+credit_standards_household,house_price_de_real,3,-0.30804226735108997
+credit_standards_household,house_price_de_real,4,-0.24756220730871548
+credit_standards_household,hh_loans_ea_stock,0,-0.09496867251680075
+credit_standards_household,hh_loans_ea_stock,1,-0.1667670291621094
+credit_standards_household,hh_loans_ea_stock,2,-0.2304541791505563
+credit_standards_household,hh_loans_ea_stock,3,-0.27242941059051545
+credit_standards_household,hh_loans_ea_stock,4,-0.2792874149252779
+credit_standards_enterprise,nfc_loans_ea_stock,0,0.29390295164848335
+credit_standards_enterprise,nfc_loans_ea_stock,1,0.11571876304969096
+credit_standards_enterprise,nfc_loans_ea_stock,2,-0.05980588834899351
+credit_standards_enterprise,nfc_loans_ea_stock,3,-0.19651190337010066
+credit_standards_enterprise,nfc_loans_ea_stock,4,-0.28399236294904595

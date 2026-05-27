@@ -1,0 +1,4 @@
+series_a,series_b,level_corr,risk
+ln_hh_loans_ea_stock,ln_nfc_loans_ea_stock,0.9272952225701624,high level collinearity
+ln_hh_loans_ea_stock,ln_hicp_de,0.9058991165867695,high level collinearity
+ln_house_price_de_real,ln_retail_de_chained_index,0.9489668343321994,high level collinearity

@@ -1,0 +1,60 @@
+{
+  "finished_at": "2026-05-16T17:35:11.832243+00:00",
+  "canonical_notebook": "notebooks/thesis_empirical_pipeline.ipynb",
+  "canonical_output_root": "results/final",
+  "archive_run": "archive/retired_active_artifacts/20260516T173453Z",
+  "baseline_cells": 30,
+  "weak_iv_status_counts": {
+    "directional_only": 30
+  },
+  "first_stage_flag_counts": {
+    "weak_iv_risk": 30
+  },
+  "first_stage_f_min": 0.015702461598562825,
+  "first_stage_f_max": 0.24337593841762192,
+  "top_ranked_channels": "NFC credit, Housing, HH credit",
+  "monthly_first_stage_top_bridge": "d_dfr_eop via target_factor_monthly_easing (F=17.072093684754748, status=fragile_candidate)",
+  "monthly_reduced_form_cells": 150,
+  "steps": [
+    {
+      "name": "Build canonical monthly model dataset",
+      "returncode": 0,
+      "started_at": "2026-05-16T17:34:53.180902+00:00",
+      "finished_at": "2026-05-16T17:34:54.983624+00:00",
+      "command": [
+        "Rscript",
+        "src/data/build_monthly_model_dataset.R"
+      ]
+    },
+    {
+      "name": "Run monthly first-stage tournament",
+      "returncode": 0,
+      "started_at": "2026-05-16T17:34:54.983670+00:00",
+      "finished_at": "2026-05-16T17:35:10.013656+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python",
+        "scripts/run_first_stage_tournament.py"
+      ]
+    },
+    {
+      "name": "Run information-effect screening",
+      "returncode": 0,
+      "started_at": "2026-05-16T17:35:10.013692+00:00",
+      "finished_at": "2026-05-16T17:35:10.362201+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python",
+        "scripts/run_information_effect_screening.py"
+      ]
+    },
+    {
+      "name": "Run monthly reduced-form LP layer",
+      "returncode": 0,
+      "started_at": "2026-05-16T17:35:10.362236+00:00",
+      "finished_at": "2026-05-16T17:35:11.829023+00:00",
+      "command": [
+        "/Users/ck/miniconda3/bin/python",
+        "scripts/run_monthly_reduced_form_lp.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+component,factor,loading,variance_explained
+composite_pca_timing_fg_qe,timing,0.7231126686194697,0.4444484023844125
+composite_pca_timing_fg_qe,fg,-0.6778879752700288,0.4444484023844125
+composite_pca_timing_fg_qe,qe,0.132574362024978,0.4444484023844125

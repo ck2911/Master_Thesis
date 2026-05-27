@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="72" y="26" font-family="Arial" font-size="18" font-weight="700">real wage tracker excl. one-offs: cumulative moving-block interval</text>
+  <line x1="72" y1="44" x2="72" y2="366" stroke="#444"/>
+  <line x1="72" y1="366" x2="726" y2="366" stroke="#444"/>
+  <line x1="72" y1="183.7" x2="726" y2="183.7" stroke="#999" stroke-dasharray="5 5"/>
+  <polygon points="72.0,187.9 99.2,176.6 153.8,173.4 235.5,170.2 399.0,145.1 726.0,66.2 726.0,311.3 399.0,343.8 235.5,300.7 153.8,260.0 99.2,229.0 72.0,212.7" fill="#8ec5ff" opacity="0.38"/>
+  <polyline points="72.0,200.3 99.2,202.8 153.8,216.7 235.5,235.4 399.0,244.4 726.0,188.8" fill="none" stroke="#1f6feb" stroke-width="3"/>
+  <text x="72.0" y="392" text-anchor="middle" font-size="12">0</text>
+<text x="99.2" y="392" text-anchor="middle" font-size="12">1</text>
+<text x="153.8" y="392" text-anchor="middle" font-size="12">3</text>
+<text x="235.5" y="392" text-anchor="middle" font-size="12">6</text>
+<text x="399.0" y="392" text-anchor="middle" font-size="12">12</text>
+<text x="726.0" y="392" text-anchor="middle" font-size="12">24</text>
+  <text x="380.0" y="418" text-anchor="middle" font-family="Arial" font-size="13">Horizon in months</text>
+</svg>

@@ -1,0 +1,2 @@
+policy_variable,instrument,nobs,sample_start,sample_end,first_stage_f_stat,partial_r_squared,r_squared,hac_bandwidth,instrument_coefficient,instrument_std_error,instrument_t_stat,instrument_p_value
+d_ecb_assets_ea_qavg,target_factor_market_magnitude_weighted_quarterly_sum,67,2005Q4,2022Q2,0.20642234843224008,0.004031180835631256,0.6055564301362018,1,-500.6739238927112,1192.2178039036096,-0.41995172547615345,0.6745207198171992

@@ -1,0 +1,99 @@
+{
+  "finished_at": "2026-05-21T12:11:35.513042+00:00",
+  "canonical_notebook": "notebooks/thesis_empirical_pipeline.ipynb",
+  "canonical_output_root": "results/final",
+  "archive_run": "archive/retired_active_artifacts/20260521T121042Z",
+  "baseline_cells": 0,
+  "weak_iv_status_counts": {},
+  "first_stage_flag_counts": {},
+  "first_stage_f_min": null,
+  "first_stage_f_max": null,
+  "top_ranked_channels": "",
+  "monthly_first_stage_top_bridge": "d_dfr_eop via target_factor_monthly_easing (F=17.07209368475478, status=fragile_candidate)",
+  "monthly_reduced_form_cells": 660,
+  "proxy_validation_candidates": 18,
+  "monthly_stability_cells": 60,
+  "steps": [
+    {
+      "name": "Rebuild processed EU/DE data",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:10:43.009557+00:00",
+      "finished_at": "2026-05-21T12:10:45.175251+00:00",
+      "command": [
+        "Rscript",
+        "src/data/build_final_dataset.R"
+      ]
+    },
+    {
+      "name": "Rebuild ECB external instrument pipeline",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:10:45.175320+00:00",
+      "finished_at": "2026-05-21T12:10:53.432851+00:00",
+      "command": [
+        "/Users/ck/jupyter-env/bin/python3",
+        "-m",
+        "src.data.ecb_monetary_surprises"
+      ]
+    },
+    {
+      "name": "Build canonical monthly model dataset",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:10:53.432899+00:00",
+      "finished_at": "2026-05-21T12:10:55.674100+00:00",
+      "command": [
+        "Rscript",
+        "src/data/build_monthly_model_dataset.R"
+      ]
+    },
+    {
+      "name": "Run monthly first-stage tournament",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:10:55.674150+00:00",
+      "finished_at": "2026-05-21T12:11:03.167316+00:00",
+      "command": [
+        "/Users/ck/jupyter-env/bin/python3",
+        "scripts/run_first_stage_tournament.py"
+      ]
+    },
+    {
+      "name": "Run information-effect screening",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:11:03.167361+00:00",
+      "finished_at": "2026-05-21T12:11:03.496214+00:00",
+      "command": [
+        "/Users/ck/jupyter-env/bin/python3",
+        "scripts/run_information_effect_screening.py"
+      ]
+    },
+    {
+      "name": "Run monthly proxy validation tournament",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:11:03.496263+00:00",
+      "finished_at": "2026-05-21T12:11:08.185703+00:00",
+      "command": [
+        "/Users/ck/jupyter-env/bin/python3",
+        "scripts/run_proxy_validation.py"
+      ]
+    },
+    {
+      "name": "Run monthly reduced-form LP layer",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:11:08.185754+00:00",
+      "finished_at": "2026-05-21T12:11:35.243225+00:00",
+      "command": [
+        "/Users/ck/jupyter-env/bin/python3",
+        "scripts/run_monthly_reduced_form_lp.py"
+      ]
+    },
+    {
+      "name": "Run final empirical audit",
+      "returncode": 0,
+      "started_at": "2026-05-21T12:11:35.309710+00:00",
+      "finished_at": "2026-05-21T12:11:35.505721+00:00",
+      "command": [
+        "/Users/ck/jupyter-env/bin/python3",
+        "scripts/final_empirical_audit.py"
+      ]
+    }
+  ]
+}

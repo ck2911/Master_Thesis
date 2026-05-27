@@ -1,0 +1,1 @@
+"""Archived impulse-response utilities."""

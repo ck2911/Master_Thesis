@@ -1,0 +1,7 @@
+r_null,r_alt_trace,trace_stat,trace_crit_95,trace_reject_95,r_alt_maxeig,maxeig_stat,maxeig_crit_95,maxeig_reject_95,det_order,deterministic_label,k_ar_diff
+0,6,167.1945923506717,95.7542,True,1,86.82111049429521,40.0763,True,0,constant_in_cointegration_relation,2
+1,6,80.37348185637649,69.8189,True,2,43.762339988128446,33.8777,True,0,constant_in_cointegration_relation,2
+2,6,36.61114186824803,47.8545,False,3,17.790903923539243,27.5858,False,0,constant_in_cointegration_relation,2
+3,6,18.820237944708794,29.7961,False,4,14.170629150939973,21.1314,False,0,constant_in_cointegration_relation,2
+4,6,4.649608793768818,15.4943,False,5,4.593340024128916,14.2639,False,0,constant_in_cointegration_relation,2
+5,6,0.056268769639902703,3.8415,False,6,0.056268769639902703,3.8415,False,0,constant_in_cointegration_relation,2

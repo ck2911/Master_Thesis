@@ -1,0 +1,10 @@
+audit_item,status,value,details
+duplicate_event_dates_cleaned_event_level,pass,0.0,
+eampd_events_without_abgmr_factor_within_factor_range,review,2.0,"2008-10-08,2008-11-06"
+abgmr_factor_dates_not_found_in_eampd_workbook,pass,0.0,
+inter_meeting_gaps_over_70_days,pass,0.0,
+post_2014_qe_factor_coverage,pass,1.0,Share of post-2014 event rows with non-missing QE factor.
+covid_policy_event_count_2020q1_2022q2,pass,20.0,"2020-01-23,2020-03-12,2020-04-30,2020-06-04,2020-07-16,2020-09-10,2020-10-29,2020-12-10,2021-01-21,2021-03-11,2021-04-22,2021-06-10,2021-07-22,2021-09-09,2021-10-28,2021-12-16,2022-02-03,2022-03-10,2022-04-14,2022-06-09"
+pepp_emergency_2020_03_18_present,review,0.0,EA-MPD/ABGMR factor source does not include every unscheduled ECB emergency announcement.
+tightening_transition_event_count_2022h2,pass,4.0,"2022-07-21,2022-09-08,2022-10-27,2022-12-15"
+factor_outlier_events_abs_z_ge_4,review,3.0,"timing_factor:2008-06-05,2011-03-03,2011-08-04;target_factor:2011-10-06,2011-11-03,2012-07-05,2020-03-12,2023-03-16;fg_factor:2008-07-03,2008-08-07,2022-12-15"

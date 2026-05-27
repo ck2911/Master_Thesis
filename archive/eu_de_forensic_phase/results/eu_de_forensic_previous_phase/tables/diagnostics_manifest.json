@@ -1,0 +1,16 @@
+{
+  "outputs": {
+    "stationarity_quarterly_all_transforms": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/stationarity_quarterly_all_transforms.csv",
+    "stationarity_monthly_all_transforms": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/stationarity_monthly_all_transforms.csv",
+    "stationarity_quarterly_preferred_levels": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/stationarity_quarterly_preferred_levels.csv",
+    "breaks": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/quarterly_trend_chow_breaks.csv",
+    "event_zscores": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/quarterly_event_growth_zscores.csv",
+    "correlations": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/quarterly_preferred_level_correlations.csv",
+    "growth_correlations": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/quarterly_preferred_growth_correlations.csv",
+    "redundancy": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/redundancy_and_collinearity_flags.csv",
+    "johansen": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/johansen_candidate_rank_sensitivity.csv",
+    "lag_selection": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/vecm_lag_selection_candidates.csv",
+    "readiness": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/tables/variable_model_readiness.csv",
+    "figures_dir": "/Users/ck/Documents/New project/THESIS_Model/results/eu_de_forensic/figures"
+  }
+}

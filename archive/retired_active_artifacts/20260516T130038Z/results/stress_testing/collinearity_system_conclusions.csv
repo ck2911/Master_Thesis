@@ -1,0 +1,7 @@
+"system","max_abs_level_log_correlation","pc1_variance_share","worst_condition_number","conclusion"
+"block_1_credit_housing_income",0.850839094105526,0.754849616584896,8.00958334604154,"borderline"
+"block_2_plus_ecb_assets",0.949806366639952,0.792521366850167,18.0912487160724,"borderline"
+"block_3_plus_dax",0.949806366639952,0.782303939526215,24.1357016624242,"borderline"
+"block_4_household_credit_only",0.949806366639952,0.862080721208221,16.747721410759,"borderline"
+"block_5_nfc_credit_only",0.872831280822503,0.761745171274897,10.4721032876257,"borderline"
+"block_6_real_variables_only",0.80767347090931,0.851063999041888,3.88937199033222,"borderline"

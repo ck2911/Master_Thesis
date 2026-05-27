@@ -1,0 +1,6 @@
+channel,response,Direction,Persistence,Stability,Regime_consistency,Weak_IV_status,ranking_score,cumulative_sign
+NFC credit,ln_nfc_loans_ea_stock,negative,-0.9393939393939394,0.7727272727272727,1.0,directional_only,0.8053030303030303,negative
+Housing,ln_house_price_de_real,positive,1.0,0.7878787878787878,0.75,directional_only,0.7757575757575756,positive
+HH credit,ln_hh_loans_ea_stock,negative,-0.9393939393939394,0.6515151515151515,0.75,directional_only,0.7128787878787879,negative
+Compensation,ln_compensation_ea20_real,negative,-0.696969696969697,0.6515151515151515,0.75,directional_only,0.6522727272727272,negative
+ECB assets,ln_ecb_assets_ea_stock,positive,0.21212121212121213,0.7121212121212122,0.75,directional_only,0.5522727272727272,positive
