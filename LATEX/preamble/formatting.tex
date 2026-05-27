@@ -1,0 +1,102 @@
+% Department of Finance scientific-paper guidelines:
+% 12 pt serif body, 15 cm type area width, 2.5 cm top margin,
+% 2 cm bottom margin, and 1.5 line spacing.
+\geometry{
+  a4paper,
+  textwidth=15cm,
+  top=2.5cm,
+  bottom=2cm,
+  hcentering
+}
+\setstretch{1.5}
+
+% Publication-oriented defaults.
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{2}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{0pt}
+\emergencystretch=2em
+\raggedbottom
+
+\titleformat{\chapter}[block]
+  {\normalfont\Large\bfseries}
+  {\thechapter.}
+  {0.8em}
+  {}
+\titleformat{name=\chapter,numberless}[block]
+  {\normalfont\Large\bfseries}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\chapter}{0pt}{0pt}{1.2\baselineskip}
+\titleformat{\section}[hang]
+  {\normalfont\large\bfseries}
+  {\thesection}
+  {0.8em}
+  {}
+\titlespacing*{\section}{0pt}{1.3\baselineskip}{0.65\baselineskip}
+\titleformat{\subsection}[hang]
+  {\normalfont\normalsize\bfseries}
+  {\thesubsection}
+  {0.8em}
+  {}
+\titlespacing*{\subsection}{0pt}{1.1\baselineskip}{0.45\baselineskip}
+\titleformat{\subsubsection}[hang]
+  {\normalfont\normalsize\bfseries}
+  {\thesubsubsection}
+  {0.8em}
+  {}
+\titlespacing*{\subsubsection}{0pt}{0.9\baselineskip}{0.35\baselineskip}
+
+\captionsetup{
+  font=footnotesize,
+  labelfont=bf,
+  justification=raggedright,
+  singlelinecheck=false
+}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftdotsep}{1.5}
+\renewcommand{\cfttoctitlefont}{\normalfont\Large\bfseries}
+\renewcommand{\cftloftitlefont}{\normalfont\Large\bfseries}
+\renewcommand{\cftlottitlefont}{\normalfont\Large\bfseries}
+\setlength{\cftbeforetoctitleskip}{0pt}
+\setlength{\cftbeforeloftitleskip}{0pt}
+\setlength{\cftbeforelottitleskip}{0pt}
+\setlength{\cftaftertoctitleskip}{2.2em}
+\setlength{\cftafterloftitleskip}{2.2em}
+\setlength{\cftafterlottitleskip}{2.2em}
+\setlength{\cftbeforechapskip}{0.55em}
+\setlength{\cftbeforesecskip}{0.05em}
+\setlength{\cftchapnumwidth}{2.1em}
+\setlength{\cftsecindent}{2.1em}
+\setlength{\cftsecnumwidth}{3.1em}
+\sisetup{
+  detect-all,
+  group-minimum-digits=4,
+  table-number-alignment=center
+}
+
+\numberwithin{equation}{chapter}
+
+\hypersetup{
+  pdftitle={\ThesisTitle: \ThesisSubtitle},
+  pdfauthor={\ThesisAuthor},
+  pdfsubject={Master thesis},
+  pdfkeywords={monetary policy, high-frequency identification, ECB, housing credit, financial intermediation, compensation, transmission},
+  colorlinks=false
+}
+
+% The report class does not provide book-style front/main/back matter commands.
+\providecommand{\frontmatter}{%
+  \cleardoublepage
+  \pagenumbering{Roman}
+  \setcounter{page}{1}
+}
+\providecommand{\mainmatter}{%
+  \cleardoublepage
+  \pagenumbering{arabic}
+  \setcounter{page}{1}
+}
+\providecommand{\backmatter}{%
+  \cleardoublepage
+}

@@ -5,10 +5,10 @@ The thesis uses monthly reduced-form responses to high-frequency ECB policy surp
 ## Core Choices
 
 - Use ECB announcement surprises as the policy-news shock.
-- Compare financial, housing-finance, credit, and wage-pressure responses.
+- Compare housing-credit, lending-condition, financial-market, credit, and compensation-linked responses.
 - Keep quarterly house-price and compensation series at their observed frequency.
 - Use observed monthly proxies for the main housing-versus-compensation comparison.
 
 ## Language Discipline
 
-Use terms such as response, transmission, persistence, and timing evidence. Avoid welfare, inequality, redistribution, and definitive mediation language unless the design directly identifies it.
+Use terms such as heterogeneous transmission, response, persistence, reduced-form evidence, and timing evidence. Avoid welfare, inequality, redistribution, broad asset-price, and definitive mediation language unless the design directly identifies it.

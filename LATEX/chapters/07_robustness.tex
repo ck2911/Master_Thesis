@@ -1,0 +1,114 @@
+\chapter{Robustness \& Diagnostics}
+\label{chap:robustness}
+
+This chapter asks whether the persistence hierarchy survives stress testing. Robustness means directional and accumulated durability, not identical coefficients.
+
+\thesisfigure[0.95\textwidth]
+  {enhancement/robustness_summary.png}
+  {Summary of sign consistency and cumulative-direction consistency across robustness cells.}
+  {fig:robustness-summary}
+
+\Cref{fig:robustness-summary} summarizes the robustness surface. Mortgage spreads, NFC spreads, house-purchase lending growth, and the DAX exhibit the strongest stability metrics. Compensation-linked proxies remain informative, but their persistence is less stable than the housing-credit and intermediation evidence. The robustness layer therefore strengthens the thesis' main hierarchy while preserving the interpretation boundary.
+
+\section{Alternative Lag Structures}
+
+\noindent\textbf{Stable findings.} House-purchase lending growth, mortgage spreads, NFC spreads, and the DAX retain the strongest stability. \textbf{Sensitive findings.} NFC credit and the wage tracker weaken. \textbf{Boundary findings.} The registry does not promote an exhaustive lag grid; lag risk is covered through HAC, bootstrap, rolling, and recursive diagnostics. \textbf{Interpretation rule.} Carry claims through stable signs and accumulated directions.
+
+\artifacttable
+  {Stability metrics}
+  {tab:stability-metrics}
+  {../results/final/tables/stability_metrics.csv}
+  {Directional stability evidence across windows and robustness specifications.}
+
+\section{Alternative Shock Measures}
+
+\noindent\textbf{Stable findings.} The weighted-composite shock is closest to baseline: the DAX remains negative, house-purchase lending growth stays positive at h6 and h12, and lending spreads remain positive. \textbf{Sensitive findings.} Forward-guidance, timing, and QE components change several signs, especially for wage pressure and some housing-credit specifications. \textbf{Boundary findings.} Component sensitivity is material \parencite{JarocinskiKaradi2020}. \textbf{Interpretation rule.} Alternative shocks are diagnostics, not equivalent baselines.
+
+\artifacttable
+  {Normalized IRF output across shock measures}
+  {tab:alternative-shock-irfs}
+  {../results/final/tables/normalized_irf_outputs.csv}
+  {Baseline and alternative-shock response estimates used to compare target, timing, forward-guidance, QE, and weighted-composite surprise specifications.}
+
+\section{Sub-Sample Analysis}
+
+\thesisfigure
+  {stability/clean_vs_contaminated_h6.png}
+  {Comparison of six-month responses between clean and potentially information-contaminated event samples.}
+  {fig:clean-contaminated-h6}
+
+\noindent\textbf{Stable findings.} At h24, house-purchase lending growth remains positive in the full sample and under COVID, QE-launch, crisis-window, and extreme-outlier exclusions. Mortgage and NFC spreads remain positive across most filters, and the DAX remains negative in several exclusions. \textbf{Sensitive findings.} Magnitudes and precision move with event filtering; the wage tracker changes sign across clean and contaminated samples. \textbf{Boundary findings.} Historical composition affects size. \textbf{Interpretation rule.} Claim directional durability, not sample-invariant magnitudes.
+
+\artifacttable
+  {Cumulative stability outputs}
+  {tab:cumulative-stability}
+  {../results/final/stability/monthly_cumulative_stability_long.csv}
+  {Cumulative response paths across event filters, historical exclusions, and stability samples.}
+
+\artifacttable
+  {Rolling and recursive LP stability}
+  {tab:rolling-recursive-stability}
+  {../results/final/stability/monthly_stability_metrics.csv}
+  {Summary metrics for rolling-window, recursive-window, and sub-sample directional durability.}
+
+\thesisfigure[0.98\textwidth]
+  {enhancement/robustness_consistency_matrix.png}
+  {Robustness consistency matrix for cumulative response directions across event filters and historical exclusions.}
+  {fig:robustness-consistency-matrix}
+
+\Cref{fig:robustness-consistency-matrix} shows why the robustness claim is about accumulated direction rather than exact magnitude. Housing-credit growth and lending spreads remain positive in cumulative terms across the main event filters at medium and long horizons. The wage tracker and employment expectations are more sensitive to sample composition, which is exactly why compensation-linked transmission is interpreted as weaker in persistence terms.
+
+\section{Identification Fragility}
+
+\artifacttable
+  {Information-effect event screen}
+  {tab:information-effect-screen}
+  {../results/final/diagnostics/information_effect_event_screen.csv}
+  {Event-level screen used to separate clean events from information-effect-sensitive observations.}
+
+\noindent\textbf{Stable findings.} House-purchase lending growth and lending spreads preserve qualitative direction across the information-effect screen. \textbf{Sensitive findings.} The DAX is more negative in contaminated events, and the wage tracker changes accumulated sign between clean and contaminated samples. \textbf{Boundary findings.} Market-price and compensation-linked interpretations are most exposed. \textbf{Interpretation rule.} Keep claims component-aware and uncertainty-bounded.
+
+\section{Relevance Sensitivity}
+
+The strongest first-stage bridge, end-of-month DFR change on \nolinkurl{target_factor_monthly_easing}, has \(F=17.07\) and partial \(R^2=0.066\). This baseline relevance is statistically meaningful. The robustness issue is not weak-IV collapse, but sensitivity across event composition and regimes: the jackknife \(F\)-ratio falls to about 0.31 and the rolling median \(F\)-statistic is about 8.99.
+
+\artifacttable
+  {Instrument strength matrix}
+  {tab:instrument-strength-matrix}
+  {../results/final/diagnostics/instrument_strength_matrix.csv}
+  {Diagnostic matrix used to evaluate relevance and stability of candidate monetary surprise measures.}
+
+\artifacttable
+  {Monthly first-stage tournament}
+  {tab:monthly-first-stage-tournament}
+  {../results/final/diagnostics/monthly_first_stage_tournament.csv}
+  {Monthly first-stage relevance, jackknife, rolling, and regime diagnostics for possible treatment bridges.}
+
+\noindent\textbf{Stable findings.} The reduced-form policy-news response remains the active estimand. \textbf{Sensitive findings.} Stronger treatment claims for the DFR, shadow rate, ECB assets, or credit aggregates require more stable relevance than the rolling and jackknife diagnostics provide. \textbf{Boundary findings.} A full-sample first stage is informative but insufficient when relevance is event-concentrated or regime-sensitive \parencite{StockYogo2005}. \textbf{Interpretation rule.} The diagnostics narrow the treatment interpretation; they do not weaken the persistence comparison itself.
+
+\section{Sign Consistency}
+
+\thesisfigure
+  {uncertainty/significance_heatmap.png}
+  {Horizon-by-response significance heatmap for thesis-facing response variables.}
+  {fig:significance-heatmap}
+
+\noindent\textbf{Stable findings.} Mortgage spreads have complete sign and accumulated-direction consistency; NFC spreads are nearly as stable; house-purchase lending growth has high sign consistency and complete accumulated-direction consistency. The DAX is a stable negative market-price response. \textbf{Sensitive findings.} ECB assets are imprecise, NFC credit is weak, and wage-pressure measures vary across proxies and filters. \textbf{Boundary findings.} Adjacent-horizon dependence makes long-horizon inference joint rather than coefficient-by-coefficient. \textbf{Interpretation rule.} Persistence claims rest on sign-consistent accumulated patterns under HAC and bootstrap uncertainty \parencite{Jorda2005,NeweyWest1987}.
+
+\artifacttable
+  {Bootstrap sensitivity summary}
+  {tab:robustness-bootstrap-sensitivity}
+  {../results/final/uncertainty/bootstrap_sensitivity_summary.csv}
+  {Moving-block and wild-bootstrap uncertainty comparisons for horizon-dependent local-projection responses.}
+
+The appendix repeats the same bootstrap sensitivity artifact as a technical registry item in \Cref{tab:bootstrap-sensitivity}, so the uncertainty output remains visible both in the robustness narrative and in the appendix.
+
+\artifacttable
+  {Horizon dependence diagnostics}
+  {tab:horizon-dependence}
+  {../results/final/uncertainty/horizon_dependence_diagnostics.csv}
+  {Residual-correlation diagnostics motivating dependence-aware uncertainty for cumulative response interpretation.}
+
+\section{Alternative Ordering Schemes}
+
+\noindent\textbf{Stable findings.} The promoted estimator uses measured ECB announcement-window surprises. \textbf{Sensitive findings.} A recursive-ordering exercise would belong to a different SVAR design. \textbf{Boundary findings.} Ordering sensitivity is not the governing robustness object. \textbf{Interpretation rule.} The relevant stress tests are contamination screening, alternative shock components, relevance sensitivity, rolling and recursive stability, regime descriptions, and bootstrap uncertainty.

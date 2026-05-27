@@ -1,21 +1,25 @@
 # Reading The Results
 
-## Start With The IRFs
+## Start With Identification
 
-The baseline IRFs show the monthly response profile after an ECB easing surprise. They are the first place to see signs, timing, and uncertainty.
+Read the first-stage relevance and information-effect diagnostics before interpreting the response paths. The shock is policy news, not a fully purified structural treatment.
 
-## Then Read Persistence
+## Then Read Housing Credit
 
-Cumulative-response tables and figures are the key evidence for the thesis. They show whether the response lasts, not just whether it appears on impact.
+House-purchase lending growth is the core empirical contribution. It is the first results block to interpret and the main persistence result.
 
-## Then Check Robustness
+## Then Read Intermediation
 
-Clean-event samples, rolling estimates, recursive estimates, regime splits, and exclusion checks show whether the main channel ranking is sensitive to sample choices.
+Lending spreads, rates, credit quantities, and timing outputs explain why the housing-credit response is economically plausible. They should be read as timing-consistent financial-intermediation evidence, not as structural mediation.
 
-## Mechanism Layer
+## Then Read Financial Markets
 
-Banking and lending-condition outputs help explain the housing-finance result. They should be read as timing evidence for financial intermediation, not as a structural mediation estimate.
+The DAX response is negative and information-sensitive. It is a boundary on simple asset-price narratives.
+
+## Then Read Compensation-Linked Outcomes
+
+Wage-pressure and employment proxies provide the comparative real-economy block. Their weaker persistence is meaningful, but it is not an income-incidence estimate.
 
 ## Proxy Layer
 
-Proxy tables explain why the monthly analysis compares housing-finance variables with wage-pressure variables rather than interpolated house prices or compensation per employee.
+Proxy tables explain why the monthly analysis compares housing-credit variables with wage-pressure variables rather than interpolated house prices or compensation per employee.

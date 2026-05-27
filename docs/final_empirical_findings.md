@@ -2,20 +2,24 @@
 
 ## Main Result
 
-Expansionary ECB surprises produce more persistent responses in financial and housing-finance variables than in compensation-related wage-pressure variables.
+Expansionary ECB surprises produce the clearest and most persistent response in house-purchase lending growth. Lending spreads and other intermediation variables support a housing-credit transmission interpretation.
 
-## Financial And Housing Channels
+## Housing-Credit And Intermediation Channels
 
-Housing-finance growth, lending spreads, credit conditions, and financial variables provide the strongest evidence. These responses are economically important because they affect borrowing costs, credit access, and asset-side balance sheets.
+House-purchase lending growth is the centerpiece result. Mortgage and NFC spreads provide supporting lending-condition evidence. Broad credit quantities are weaker, so the result is sectorally differentiated rather than a generic credit-expansion claim.
 
-## Compensation Channel
+## Financial Markets
 
-The wage and compensation proxies are not silent, but their response is weaker and less stable. Negotiated-wage pressure moves less durably than housing finance and lending conditions.
+Financial-market responses are mixed. The DAX response is negative at medium and longer horizons, which should be interpreted through possible information effects in ECB communications rather than as straightforward asset-price evidence.
+
+## Compensation-Linked Channel
+
+The wage and compensation-linked proxies are not silent, but their response is weaker and less stable. Negotiated-wage pressure moves less durably than housing credit and lending conditions.
 
 ## Interpretation
 
-The evidence points to asymmetric transmission. Policy news appears to move through financial intermediation and housing finance more clearly than through broad real-income pass-through.
+The evidence points to heterogeneous transmission. Policy news appears to move through financial intermediation and housing credit more clearly than through broad compensation-linked real-economy pass-through.
 
 ## Robustness
 
-Alternative shocks, clean-event samples, rolling estimates, recursive estimates, COVID exclusions, QE exclusions, and alternative proxies preserve the broad direction of the result.
+Alternative shocks, clean-event samples, rolling estimates, recursive estimates, COVID exclusions, QE exclusions, and alternative proxies preserve the broad direction of the result most clearly for house-purchase lending growth and lending spreads.

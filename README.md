@@ -1,12 +1,16 @@
 # ECB Monetary Surprise Transmission
 
-This repository supports a thesis on post-COVID monetary transmission in the euro area and Germany. The study asks whether expansionary ECB policy surprises move mainly through asset prices, housing finance, and lending conditions, or whether they pass through with similar strength into wages and real household income.
+This repository supports a thesis on post-COVID ECB monetary transmission in the Euro Area and Germany. The study asks whether expansionary ECB policy-news shocks transmit more strongly through housing-credit and selected financial-intermediation channels than through compensation-linked real-economy variables.
 
-The empirical design uses high-frequency ECB announcement surprises as external monetary shocks. The responses are estimated with an SVAR/local-projection response logic: identify the policy-news shock outside the monthly macro data, then trace impulse responses across financial, housing, credit, and compensation variables.
+The empirical design uses high-frequency ECB announcement surprises as external policy-news shocks. The responses are estimated with a local-projection / SVAR-style response logic: identify the shock outside the monthly macro data, then trace impulse responses across housing credit, lending conditions, credit aggregates, financial markets, and compensation-linked variables.
 
-The core question is simple:
+The core question is:
 
-Do expansionary monetary-policy surprises transmit primarily into financial assets and housing finance, or into real household income and compensation?
+```text
+Did post-COVID ECB monetary easing transmit more strongly through housing-credit
+and financial-intermediation channels than through compensation-linked
+real-economy variables?
+```
 
 ## Repository Structure
 
@@ -19,19 +23,23 @@ Do expansionary monetary-policy surprises transmit primarily into financial asse
 
 ## Main Findings
 
-Housing and financial variables respond more strongly and more persistently than compensation variables. The clearest evidence appears in housing-finance growth, lending spreads, and other financial-intermediation measures.
+House-purchase lending growth is the clearest and most persistent response. Lending spreads and other intermediation variables support a housing-credit transmission interpretation.
 
-Compensation and wage-pressure proxies respond more weakly and less consistently. This does not mean wages never move. It means the wage and compensation block does not show the same durable response as housing finance and lending conditions.
+Financial-market responses are mixed. In particular, the negative real DAX response should be read through an information-effects lens: ECB announcements may combine policy accommodation with adverse macroeconomic information.
 
-The main thesis result is therefore asymmetric transmission: expansionary ECB surprises appear to work more through financial and housing channels than through broad real-income pass-through.
+Compensation-linked and wage-pressure proxies respond less consistently than the housing-credit block. This does not mean income-side variables never move; it means they do not show the same durable response profile as house-purchase credit growth and lending conditions.
 
 ## Methodology
 
 The monetary shock is built from high-frequency ECB surprise measures and signed so that positive values correspond to easing surprises. The main response estimates use monthly impulse responses with HAC and bootstrap uncertainty.
 
-The design keeps quarterly house-price and compensation-per-employee series at their observed frequency. Monthly comparisons rely on observed monthly proxies, especially housing-finance measures and negotiated-wage-pressure series.
+The design keeps quarterly house-price and compensation-per-employee series at their observed frequency. Monthly comparisons rely on observed monthly proxies, especially house-purchase lending growth, pure-new mortgage-flow checks, lending spreads, and negotiated-wage-pressure series.
 
-Robustness checks use alternative ECB surprise factors, clean-event samples, regime splits, rolling estimates, recursive estimates, COVID exclusions, and alternative wage and housing-finance proxies.
+Robustness checks use alternative ECB surprise factors, clean-event samples, regime splits, rolling estimates, recursive estimates, COVID exclusions, and alternative wage and housing-credit proxies.
+
+## Interpretation Boundary
+
+The repository supports reduced-form evidence of heterogeneous monetary transmission. It does not identify household welfare effects, inequality, redistribution, exact house-price effects, or structural bank mediation.
 
 ## Running The Results
 

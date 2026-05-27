@@ -1,0 +1,59 @@
+% Encoding and language support retained from the university template.
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[main=english,ngerman]{babel}
+\usepackage{newtxtext}
+\usepackage{microtype}
+
+% Page geometry and spacing retained from the university template.
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+
+% Mathematics and notation.
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{newtxmath}
+\usepackage{bm}
+
+% Figures, tables, and captions.
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{threeparttable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{siunitx}
+
+% Text utilities.
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage{csquotes}
+
+% Bibliography. Biber is configured in latexmkrc.
+\usepackage[
+  backend=biber,
+  style=authoryear-comp,
+  sorting=nyt,
+  sortcites=true,
+  maxcitenames=2,
+  mincitenames=1,
+  maxbibnames=99,
+  giveninits=true,
+  uniquename=init,
+  doi=true,
+  url=true,
+  isbn=false,
+  eprint=false
+]{biblatex}
+
+% Hyperlinks should load late; cleveref should load after hyperref.
+\usepackage[hidelinks]{hyperref}
+\usepackage[nameinlink,noabbrev]{cleveref}

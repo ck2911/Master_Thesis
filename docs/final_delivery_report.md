@@ -11,7 +11,7 @@ The project is organized for thesis review rather than software review. The main
 
 ## What The Outputs Show
 
-The results compare responses across financial markets, housing finance, lending conditions, credit, wages, and compensation pressure. The central pattern is stronger persistence in housing and financial channels than in wage-related channels.
+The results compare responses across housing credit, lending conditions, credit aggregates, financial markets, wages, and compensation-linked proxies. The central pattern is stronger persistence in house-purchase lending growth and lending spreads than in wage-related channels.
 
 ## What To Ignore
 

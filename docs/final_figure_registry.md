@@ -8,7 +8,7 @@ Baseline impulse-response figures show how each monthly response variable moves 
 
 ## Persistence Figures
 
-Cumulative-response and persistence figures show whether movements last beyond the impact horizon. These are the most useful figures for the housing-versus-compensation comparison.
+Cumulative-response and persistence figures show whether movements last beyond the impact horizon. These are the most useful figures for the housing-credit versus compensation-linked comparison.
 
 ## Uncertainty Figures
 
@@ -20,8 +20,8 @@ Rolling, recursive, clean-event, and exclusion figures check whether the main hi
 
 ## Mechanism Figures
 
-Banking and sequential-timing figures show whether lending rates, spreads, and credit variables move before or alongside housing-finance responses.
+Banking and sequential-timing figures show whether lending rates, spreads, and credit variables move before or alongside housing-credit responses.
 
 ## Proxy Figures
 
-Proxy-ranking figures explain why the monthly comparison uses housing-finance and wage-pressure measures rather than interpolated house-price or compensation series.
+Proxy-ranking figures explain why the monthly comparison uses housing-credit and wage-pressure measures rather than interpolated house-price or compensation series.

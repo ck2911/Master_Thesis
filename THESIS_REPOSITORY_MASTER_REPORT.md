@@ -2,39 +2,41 @@
 
 ## Research Objective
 
-The thesis studies how unexpected ECB monetary-policy easing transmits after the post-COVID period of very large liquidity expansion and later tightening. The economic question is whether policy surprises mainly affect financial and housing-related variables, or whether they pass through with comparable strength into wages, compensation, and real household income.
+The thesis studies how unexpected ECB monetary-policy easing transmits through macro-financial channels in the post-COVID monetary environment. The central question is whether policy-news shocks transmit more strongly through housing-credit and selected financial-intermediation variables than through compensation-linked real-economy variables.
 
-The project tests a comparative transmission claim. It does not try to measure welfare effects or household-level redistribution. It compares response paths across channels that matter for affordability: asset prices, housing finance, lending conditions, credit, wages, and compensation pressure.
+The project tests a comparative transmission claim. It compares response paths across housing credit, lending conditions, credit aggregates, financial markets, and compensation-linked proxies. It does not try to measure household welfare effects, inequality, redistribution, or borrower-level incidence.
 
 The main question is:
 
-Does expansionary monetary policy transmit more strongly into financial assets and housing finance than into real household income?
+```text
+Did post-COVID ECB monetary easing transmit more strongly through housing-credit
+and financial-intermediation channels than through compensation-linked
+real-economy variables?
+```
 
 ## Economic Motivation
 
-The post-COVID policy environment made this question especially relevant. Central-bank balance sheets expanded sharply, interest rates stayed low for a long period, and asset and housing markets absorbed a large part of the financial impulse. When inflation rose and rates increased, household affordability came under pressure from both higher financing costs and earlier asset-price increases.
+The post-COVID policy environment made this question especially relevant. Central-bank balance sheets expanded sharply, interest rates stayed low for a long period, and the subsequent tightening cycle changed borrowing conditions quickly. The macro-finance concern is where policy-news responses are clearest and most persistent: in intermediation and housing credit, or in compensation-linked real-economy variables.
 
-The core macro-finance concern is not only whether monetary policy affects output or inflation. It is also where the first and most persistent responses appear. If housing finance, lending spreads, and financial prices react more durably than wages, expansionary policy can raise asset-side pressure without producing a matching improvement in household purchasing power.
-
-This makes the compensation channel central. A strong wage response would suggest broader income pass-through. A weak or inconsistent wage response, beside persistent housing and financial responses, points toward asymmetric transmission through financial intermediation and balance sheets.
+The compensation block remains important, but it is a comparison block rather than a welfare test. A strong and persistent compensation-linked response would suggest broader income-side transmission. A weaker or less consistent response, beside persistent housing-credit and lending-condition responses, points toward heterogeneous transmission through financial intermediation and balance sheets.
 
 ## Identification Strategy
 
-The monetary shock comes from high-frequency ECB announcement surprises. These surprises are measured around policy events, before monthly macro-financial outcomes are realized. That timing gives the shock its identifying content: it captures policy news rather than slow-moving macro conditions.
-
-The design follows the logic of an external-instrument SVAR. The policy surprise is treated as an external source of monetary variation, and the response system traces how monthly variables move after that shock. The main shock is signed so that positive values represent expansionary news.
+The monetary shock comes from high-frequency ECB announcement surprises. These surprises are measured around policy events, before monthly macro-financial outcomes are realized. The main shock is signed so that positive values represent expansionary news.
 
 ECB announcements can contain information about the economy as well as policy. The project therefore separates cleaner monetary events from events with possible information effects. This does not make the shock perfect, but it keeps the interpretation honest: the estimates are response paths to ECB policy-news surprises.
+
+The DAX sign problem is part of this identification boundary. A negative equity response after an easing surprise may indicate that the announcement contains adverse macroeconomic information as well as accommodative policy news. Equity responses are therefore interpreted as mixed financial-market evidence, not as a simple asset-price channel.
 
 ## Data Construction
 
 The monetary block includes ECB surprise factors, the deposit facility rate, the Wu-Xia shadow rate, and ECB balance-sheet measures. These variables distinguish conventional rate policy from balance-sheet liquidity.
 
-The housing block uses monthly housing-finance measures, especially house-purchase lending growth and new mortgage lending. Direct house prices are kept at their observed lower frequency, so the monthly comparison focuses on housing finance rather than claiming exact monthly house-price effects.
+The housing-credit block uses monthly housing-credit measures, especially house-purchase lending growth and pure-new mortgage lending. Direct house prices are kept at their observed lower frequency, so the monthly comparison focuses on housing credit rather than claiming exact monthly house-price effects.
 
-The wage and compensation block uses negotiated-wage-pressure measures, wage-tracker variants, and a German wage-bill proxy. These are included because the thesis needs a monthly income-side comparison, but they are interpreted as wage pressure and payroll-cost evidence rather than exact compensation per employee.
+The compensation-linked block uses negotiated-wage-pressure measures, wage-tracker variants, and a German wage-bill proxy. These variables are interpreted as wage pressure and payroll-cost evidence rather than exact compensation per employee.
 
-The financial-intermediation block includes mortgage and NFC lending spreads, credit stocks, and banking-survey information where available. These variables matter because monetary policy reaches households and firms through the lending system, not only through market prices.
+The financial-intermediation block includes mortgage and NFC lending spreads, lending rates, credit stocks, and banking-survey information where available. These variables matter because monetary policy reaches households and firms through lending conditions, not only through market prices.
 
 The data choices are deliberately conservative. Quarterly variables are not filled into monthly observations. The monthly analysis uses observed monthly series or transparent monthly transformations.
 
@@ -48,40 +50,36 @@ Uncertainty is reported with HAC intervals and bootstrap checks. The uncertainty
 
 ## Main Findings
 
-The main finding is asymmetric transmission.
+The main finding is heterogeneous transmission.
 
-Housing and financial variables respond more strongly and more persistently than wage and compensation variables. This pattern is clearest in housing-finance growth, lending spreads, and financial-intermediation measures.
+House-purchase lending growth is the clearest and most persistent response. It is positive through medium horizons and remains positive in accumulated terms through h24. This result is the core empirical contribution.
 
-Housing-finance responses remain economically important beyond the initial policy surprise. The lending side is not just a short-run reaction: mortgage-related and credit-condition variables continue to show transmission after the impact horizon. This persistence is central for the affordability interpretation.
+Lending spreads and intermediation variables support the mechanism interpretation. Mortgage and NFC spreads show durable positive accumulated responses, while broad credit stocks are weaker. The evidence points to sectorally differentiated transmission rather than a generic credit-quantity response.
 
-Financial variables also react visibly. The response pattern is consistent with policy news moving first through market prices, liquidity conditions, and credit pricing. These are the channels through which expansionary policy can raise balance-sheet values and alter borrowing conditions before households see equivalent income gains.
+Pure-new house-purchase loans provide a flow-based robustness check. They are more volatile and shorter in sample, so they do not replace the stock-based house-purchase lending growth result. The divergence between the two is interpreted as a stock-flow distinction: credit growth captures sustained financing conditions, while pure-new lending captures immediate origination behavior.
 
-The compensation response is weaker. Negotiated-wage-pressure measures and wage-bill proxies provide some movement, so the labor-income channel is not absent. But the response is less durable, less consistent, and less central than the housing-finance and lending-condition evidence.
+Financial-market responses are mixed. The DAX response is negative at medium and longer horizons, which is consistent with possible information effects in ECB communications. ECB assets provide liquidity-stock context but are not a strong persistence pillar.
 
-The wage result matters because it prevents a simple "monetary easing helps households through income" reading. In this evidence, the asset and housing side reacts more clearly than the compensation side.
-
-The strongest interpretation is therefore comparative: expansionary ECB surprises appear to transmit more through financial and housing channels than through broad real-income pass-through.
+Compensation-linked responses are weaker and less consistent. Wage-pressure measures and wage-bill proxies provide some movement, so the labor-income channel is not absent. The comparative result is that the compensation-linked block does not show the same durable response profile as housing credit and lending conditions.
 
 ## Interpretation
 
-The results fit a financialized view of monetary transmission. Policy news affects the value and cost of financial claims quickly, while wage and compensation adjustment is slower, negotiated, and more institutionally constrained.
+The strongest interpretation is comparative: expansionary ECB policy-news shocks appear to transmit most clearly through housing-credit and selected financial-intermediation channels, while evidence for broad compensation-linked real-economy transmission is weaker and less consistent.
 
-This creates an affordability-relevant asymmetry. If housing finance and asset-side variables respond persistently while wages respond weakly, monetary easing can support asset-price and credit channels without a matching improvement in real household income.
+The findings highlight the role of financial intermediation. Lending spreads and credit variables help explain why the housing-credit response is not only a market-price story. Banks and lending conditions form the practical channel through which policy news reaches housing credit.
 
-The findings also highlight the role of financial intermediation. Lending spreads and credit variables help explain why the housing response is not only a market-price story. Banks and lending conditions form the practical channel through which policy news reaches housing finance.
-
-The thesis should therefore be read as evidence on transmission patterns, not as a direct measure of welfare, inequality, or redistribution.
+The thesis should therefore be read as evidence on channel-specific transmission patterns, not as a direct measure of welfare, inequality, redistribution, or structural mediation.
 
 ## Robustness
 
-The main result is checked with alternative ECB surprise measures, cleaner event samples, rolling and recursive estimates, crisis and COVID exclusions, and alternative wage and housing-finance proxies.
+The main result is checked with alternative ECB surprise measures, cleaner event samples, rolling and recursive estimates, crisis and COVID exclusions, and alternative wage and housing-credit proxies.
 
-The exact magnitude changes across specifications, as expected in monthly macro-financial data. The direction of the evidence is more stable: housing finance and lending conditions remain more persistent than the main compensation proxies.
+The exact magnitude changes across specifications, as expected in monthly macro-financial data. The direction of the evidence is more stable: house-purchase lending growth and lending conditions remain more persistent than the main compensation-linked proxies.
 
 The robustness work supports the central hierarchy without removing the identification boundary. The evidence is strongest for comparative transmission, not for exact structural mediation.
 
 ## Conclusion
 
-The repository supports a clear thesis argument: post-COVID ECB monetary-policy surprises transmit more visibly through financial markets, lending conditions, and housing finance than through wages and real compensation.
+The repository supports a clear thesis argument: post-COVID ECB monetary-policy surprises transmit most clearly and persistently through housing credit and selected intermediation variables, while compensation-linked real-economy evidence is weaker and less consistent.
 
-The econometric design keeps the claim narrow but meaningful. It identifies dynamic responses to external monetary-policy news and uses those responses to compare channels. Within that boundary, the evidence points to persistent asset-side and housing-finance transmission with weaker wage pass-through.
+The econometric design keeps the claim narrow but meaningful. It identifies dynamic responses to external monetary-policy news and uses those responses to compare channels. Within that boundary, the evidence points to heterogeneous macro-financial transmission centered on housing-credit amplification.

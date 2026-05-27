@@ -20,4 +20,4 @@ Uncertainty is reported with HAC intervals and bootstrap checks. Cumulative resp
 
 ## Interpretation
 
-The model compares transmission across housing finance, financial markets, credit, and wage-pressure variables. It does not estimate welfare, redistribution, or exact structural mediation.
+The model compares transmission across housing credit, lending conditions, financial markets, credit aggregates, and compensation-linked variables. It does not estimate welfare, redistribution, household incidence, or exact structural mediation.
