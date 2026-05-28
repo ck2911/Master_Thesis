@@ -17,6 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
 FINAL_ROOT = RESULTS / "final"
 ARCHIVE_ROOT = ROOT / "archive" / "retired_active_artifacts"
+CANONICAL_NOTEBOOK = ROOT / "1. thesis_master_notebook.ipynb"
+CANONICAL_NOTEBOOK_REL = CANONICAL_NOTEBOOK.relative_to(ROOT).as_posix()
 
 FINAL_DIRS = {
     "figures": FINAL_ROOT / "figures",
@@ -185,16 +187,11 @@ def archive_deprecated_code_and_runners(archive_run: Path) -> None:
         ROOT / "scripts" / "rebuild_outputs.py",
         ROOT / "proxy_validation",
         ROOT / ".matplotlib_cache",
+        ROOT / "notebooks",
     ]
     for path in deprecated_paths:
         if path.exists():
             archive_path(path, archive_run)
-
-    notebooks_dir = ROOT / "notebooks"
-    if notebooks_dir.exists():
-        for child in notebooks_dir.iterdir():
-            if child.name != "thesis_empirical_pipeline.ipynb":
-                archive_path(child, archive_run)
 
     for cache_dir in sorted(ROOT.rglob("__pycache__")):
         if "archive" not in cache_dir.relative_to(ROOT).parts:
@@ -471,7 +468,7 @@ def write_execution_memos(step_results: list[StepResult], archive_run: Path) -> 
     finished = utc_now()
     summary = {
         "finished_at": finished.isoformat(),
-        "canonical_notebook": "notebooks/thesis_empirical_pipeline.ipynb",
+        "canonical_notebook": CANONICAL_NOTEBOOK_REL,
         "canonical_output_root": "results/final",
         "archive_run": str(archive_run.relative_to(ROOT)),
         "baseline_cells": len(baseline),
@@ -492,7 +489,7 @@ def write_execution_memos(step_results: list[StepResult], archive_run: Path) -> 
     lines = [
         "# Execution Summary",
         "",
-        "Main notebook: `notebooks/thesis_empirical_pipeline.ipynb`.",
+        f"Main notebook: `{CANONICAL_NOTEBOOK_REL}`.",
         "Main outputs: `results/final/`.",
         "",
         "## Rebuild Steps",

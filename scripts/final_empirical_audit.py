@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 FINAL_ROOT = ROOT / "results" / "final"
+CANONICAL_NOTEBOOK = ROOT / "1. thesis_master_notebook.ipynb"
 
 REQUIRED_DIRS = (
     FINAL_ROOT / "figures",
@@ -62,7 +63,7 @@ ALLOWED_SCRIPTS = {
 }
 
 REQUIRED_FILES = (
-    ROOT / "notebooks" / "thesis_empirical_pipeline.ipynb",
+    CANONICAL_NOTEBOOK,
     ROOT / "data" / "processed" / "eu_de" / "final_monthly_model_dataset.csv",
     FINAL_ROOT / "tables" / "monthly_reduced_form_lp_coefficients.csv",
     FINAL_ROOT / "tables" / "monthly_reduced_form_lp_cumulative.csv",
@@ -155,6 +156,7 @@ DEPRECATED_ACTIVE_DIRS = (
     ROOT / "src" / "transformations",
     ROOT / "src" / "plotting",
     ROOT / "src" / "diagnostics",
+    ROOT / "notebooks",
 )
 
 CACHE_DIR_NAMES: set[str] = set()
@@ -335,7 +337,7 @@ def check_identification_rebuild_visibility(findings: list[Finding]) -> None:
 
 
 def check_notebook_surface(findings: list[Finding]) -> None:
-    notebook = ROOT / "notebooks" / "thesis_empirical_pipeline.ipynb"
+    notebook = CANONICAL_NOTEBOOK
     if not notebook.exists():
         return
     text = notebook.read_text(encoding="utf-8")
@@ -511,7 +513,10 @@ def check_stale_outputs(findings: list[Finding]) -> None:
 
     stale: list[str] = []
     for path in REQUIRED_FILES:
-        if path == FINAL_ROOT / "diagnostics" / "causal_language_audit.csv":
+        if path in {
+            FINAL_ROOT / "diagnostics" / "causal_language_audit.csv",
+            FINAL_ROOT / "memos" / "execution_summary.md",
+        }:
             continue
         try:
             path.relative_to(FINAL_ROOT)
@@ -528,7 +533,7 @@ def language_scan_files() -> list[Path]:
         ROOT / "README.md",
         ROOT / "docs",
         FINAL_ROOT / "memos",
-        ROOT / "notebooks" / "thesis_empirical_pipeline.ipynb",
+        CANONICAL_NOTEBOOK,
     ]
     files: list[Path] = []
     for item in scan_roots:

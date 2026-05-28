@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 ROOT_MARKERS = (
-    "notebooks/thesis_empirical_pipeline.ipynb",
+    "1. thesis_master_notebook.ipynb",
     "scripts/run_full_pipeline.py",
     "data",
 )
@@ -74,7 +74,7 @@ DATA = ROOT / "data" / "processed" / "eu_de"
 RAW = ROOT / "data" / "raw" / "eu_de"
 FINAL = ROOT / "results" / "final"
 DOCS = ROOT / "docs"
-NOTEBOOK = ROOT / "notebooks" / "thesis_empirical_pipeline.ipynb"
+NOTEBOOK = ROOT / "1. thesis_master_notebook.ipynb"
 PIPELINE_SCRIPT = ROOT / "scripts" / "run_full_pipeline.py"
 
 

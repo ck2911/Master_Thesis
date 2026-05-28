@@ -1,6 +1,6 @@
 # Execution Summary
 
-Main notebook: `notebooks/thesis_empirical_pipeline.ipynb`.
+Main notebook: `1. thesis_master_notebook.ipynb`.
 Main outputs: `results/final/`.
 
 ## Rebuild Steps

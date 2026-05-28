@@ -16,4 +16,4 @@ The results layer contains the figures and tables used for the thesis: IRFs, cum
 
 ## Presentation
 
-The notebook and short notes translate the estimates into the thesis argument. Archive material is background only.
+`1. thesis_master_notebook.ipynb` and the short notes translate the estimates into the thesis argument. The notebook lives at the repository root as the canonical reading interface. Archive material is background only.

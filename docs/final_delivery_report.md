@@ -1,10 +1,10 @@
 # Reading The Repository
 
-The project is organized for thesis review rather than software review. The main notebook presents the research design, figures, tables, and interpretation in one place.
+The project is organized for thesis review rather than software review. `1. thesis_master_notebook.ipynb` presents the research design, figures, tables, and interpretation in one place.
 
 ## What To Read First
 
-- The notebook for the empirical walkthrough.
+- `1. thesis_master_notebook.ipynb` for the empirical walkthrough.
 - The methodology note for the identification and response design.
 - The findings note for the main result.
 - The claim-boundary note before writing causal language.

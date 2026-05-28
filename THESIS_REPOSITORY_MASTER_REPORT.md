@@ -14,6 +14,12 @@ and financial-intermediation channels than through compensation-linked
 real-economy variables?
 ```
 
+## Repository Entry Points
+
+The canonical empirical walkthrough is `1. thesis_master_notebook.ipynb` at the repository root. The leading `1. ` keeps the notebook at the top of sorted file views, and the former `notebooks/` folder is not part of the active workflow.
+
+Rebuilds start from `python scripts/run_full_pipeline.py`, and the thesis document is compiled from `LATEX/` with `make pdf` or `scripts/compile.sh`. The LaTeX workspace reads the same repository-level outputs as the notebook and does not own separate empirical copies.
+
 ## Economic Motivation
 
 The post-COVID policy environment made this question especially relevant. Central-bank balance sheets expanded sharply, interest rates stayed low for a long period, and the subsequent tightening cycle changed borrowing conditions quickly. The macro-finance concern is where policy-news responses are clearest and most persistent: in intermediation and housing credit, or in compensation-linked real-economy variables.

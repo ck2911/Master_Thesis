@@ -14,10 +14,11 @@ real-economy variables?
 
 ## Repository Structure
 
-- `notebooks/`: main empirical notebook for reading the results.
+- `1. thesis_master_notebook.ipynb`: main empirical notebook for reading the results; it lives at the repository root so it sorts to the top in file browsers.
 - `src/data/`: construction of monthly and quarterly research datasets.
 - `src/lpiv/`: local-projection and external-instrument estimation tools.
 - `scripts/`: rebuild scripts for shocks, proxy selection, estimation, figures, and tables.
+- `LATEX/`: thesis writing and XeLaTeX compilation workspace.
 - `results/final/`: figures, tables, uncertainty checks, and mechanism outputs used by the thesis.
 - `docs/`: short research notes on identification, findings, and interpretation boundaries.
 
@@ -52,5 +53,7 @@ python scripts/run_full_pipeline.py
 The main notebook is:
 
 ```text
-notebooks/thesis_empirical_pipeline.ipynb
+1. thesis_master_notebook.ipynb
 ```
+
+The notebook is the canonical reading interface. The old `notebooks/` folder is no longer used for the active thesis notebook.
